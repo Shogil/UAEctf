@@ -152,18 +152,18 @@ const LandingHeader = ({ UTMSource = null }) => {
                             <div className="md:w-2/3 mb-4 px-4">
                                 <Pulse>
                                     <h1>
-                                        <span style={{ color: '#FF6F00'}}>INDIA'S FLAGSHIP CYBER SECURITY CONTEST AND CONFERENCE</span><br/>
-                                        SEP 2021 TO JAN 2022.
+                                        <span style={{ color: '#FF6F00'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER-AVENGERS</span><br/>
+                                        MARCH 2022 - JUNE 2022.
 
                                     </h1>
                                 </Pulse>
                                 <Fade up>
                                     <p>
                                         <span className="mt-6">
-                                            InCTF India's Premier Hacking & Cyber Security contest organized by team bi0s, India's No.1 ranked CTF Team.Participate in this learn & hack CTF contest, win exciting prizes & kick-start your cyber-security career.
+                                        UAE CTF 2022 Online Cyber Security Contest for Students, organised by Traboda CyberLabs and IPF.
                                         </span>
                                         <br/><br/>
-                                        <b>Take part in Amrita InCTF to get recruited as interns/full-time in security roles in companies such as Salesforce, Zoho, VMware, Schneider and several others. </b>
+                                        <b>An amazing contest to kick-start your cybersecurity career and also win exciting prizes!</b>
                                     </p>
                                 </Fade>
                                 
