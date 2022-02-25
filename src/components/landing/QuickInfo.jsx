@@ -39,16 +39,14 @@ const LandingQuickInfo = () => {
         {
             image: require('../../assets/images/icons/calendar.png'), up: true,
             question: "When?", answer: <>
-                Finals Jan 7-9, 2022, <br />
-                
-                International Conference Jan 21-23, 2022 
+                March 20th to June 19th
             </>
         },
         {
             image: require('../../assets/images/icons/graduation.png'), right: true,
             question: "For Whom?", answer: <>
-                College Students &<br/>
-                Professionals
+                School Students &<br/>
+                Grade 7 to 12
             </>,
         }
     ]
