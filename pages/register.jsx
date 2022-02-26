@@ -11,7 +11,7 @@ const RegisterPage = () => {
     }, []);
 
     return <Base meta={{ title: 'Register for InCTF 2021' }}>
-        <h1>Please wait while we redirect you.</h1>
+        <h1>Please wait while we redirect you.</h1>,
     </Base>;
 };
 

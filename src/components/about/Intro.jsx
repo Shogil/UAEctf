@@ -26,29 +26,23 @@ const InctfIntro = () => {
             <div className="flex flex-wrap">
                 <div className="md:w-2/3 pr-4 pl-4 flex items-center p-6">
                     <div>
-                        <Fade up><h1 className="font-bold mb-6">Why InCTF?</h1></Fade>
+                        <Fade up><h1 className="font-bold mb-6">Why UAE CTF Junior?</h1></Fade>
                         <Fade>
                             <p>
-                                A recent report has revealed that a miniscule 0.6% of graduate students are currently working in
-                                cyber security while cyber attacks and breaches are rapidly increasing world-wide. In order to
-                                encourage the youth to participate, they need to be taught at a young age about the importance of
-                                computer security.
+                            As interactions through cyberspace have become the ‘new normal’ in a post-covid world with employment, 
+                            education, relationships and all forms of communication happening in the same space called ‘internet’, 
+                            concerns over cybersecurity are unavoidable. Tackling this unprecedented challenge requires the cybersecurity 
+                            force to integrate expert security talents on-demand. Therefore, building a skilled workforce and bridging 
+                            the skill gap is of paramount importance for which the youth should be exposed to cybersecurity education, training and awareness.
                             </p>
                         </Fade>
                         <Fade>
                             <p>
-                                A lot of research have been proven to be the best way to approach this is
-                                Capture the Flag style contests. These contests typically simulate real life scenarios that enable
-                                participants to develop real world security skills.
+                            UAE CTF Junior 2022, stemmed from an idea that cybersecurity education must be introduced at school 
+                            level in order to inspire, develop and nurture talents in the area.
                             </p>
                         </Fade>
-                        <Fade>
-                            <p>
-                                Having realized the dire need for such a training culture in India, team bi0s, the cyber security
-                                student community of Amrita Vishwa Vidyapeetham is organizing Amrita InCTF, an online Capture
-                                the Flag style contest specifically designed to introduce cyber security awareness and training.
-                            </p>
-                        </Fade>
+                        
                     </div>
                 </div>
                 <div className="md:w-1/3 pr-4 pl-4 p-2">

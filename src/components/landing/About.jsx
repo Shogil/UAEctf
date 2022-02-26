@@ -81,28 +81,33 @@ const LandingAboutInCTF = () => (
             <div className="flex flex-wrap  mx-0">
                 <div className="md:w-2/3 p-2">
                     <h2 className="mt-2">
-                        India's CyberSecurity Championship & <wbr />
+                        UAE CyberSecurity Championship & <wbr />
                         <span>Talent Incubation Programme</span> <wbr />
-                        for College Students & Professionals
+                        for for School Students
                     </h2>
                     <p>
-                    InCTF is a National level Ethical Hacking contest organized annually by Team bi0s in 
-                    association with Amrita Vishwa Vidyapeetham and Amrita Centre for Cyber Security. 
-                    The contest is exclusively for students enrolled in an Indian university and aimed at 
-                    students who have no prior exposure to computer security and for the working professionals. 
-                    Started in 2010 and so far over 15,000 university students across India from 22 states have taken part.
+                    UAE CTF Junior - Online Cyber Security Contest for Students, is a virtually 
+                    organised cybersecurity contest for school students in UAE. Cybersecurity 
+                    competitions have gained popularity as a way for students to learn more about 
+                    cybersecurity while also developing and refining their hacking skills. Realizing 
+                    the vital role cybersecurity plays in making the digital world a safer place,
+                     many countries are now introducing cybersecurity education at the school level 
+                     to develop interest and nurture talent in the area.
                     </p>
                    
                     <p>
-                        It presents them exciting opportunities of getting mentored, peer-networking,
-                        and perhaps a platform to showcase their talent and get recognized & rewarded.
+                    UAE CTF Junior is an attempt to educate and inspire high school students through 
+                    interactive hacking challenges. The contest encourages students to learn subjects 
+                    on their own and engage in solving real-world challenges that give students the 
+                    opportunity to analyze attacks and share their findings. Participation in the 
+                    contest is free and requires no prior knowledge for taking part in it. 
                     </p>
                 </div>
                 <div className="md:w-1/3 flex justify-end items-center p-3">
                     <div>
                         
                         <HighlightFeature>
-                            5-month Long Completely Free, <wbr /> <span>End-to-End Programme</span>
+                            2-month Long Completely Free, <wbr /> <span>End-to-End Programme</span>
                         </HighlightFeature>
                         
                         <HighlightFeature>
