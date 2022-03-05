@@ -43,45 +43,37 @@ const LandingOrganizers = () => {
 
     return <OrganizersSection>
         <div className="content-container">
-            <h3>Organized By</h3>
+            <h3 className="text-blue-600">Organized By</h3>
             <div className="flex flex-wrap  mx-0">
                 <Fade left>
-                    <div className="w-full md:w-1/3 pr-4 pl-4 md:order-1 order-2 md:text-right text-center amrita">
-                        <a href="https://amrita.edu">
-                            <img alt="Amrita Vishwa Vidyapeetham"
-                                 src={require('../../assets/images/logos/amritapuri_dark.png')}
-                                 className="md:ml-auto md:mr-0 mx-auto" />
+                <div className="w-full md:w-1/2 pr-4 pl-4 bi0s text-center md:order-2 order-1 ">
+                        <a href="www.ipf-uae.org">
+                            <img alt="Indian Peoples Forum" src={require('../../assets/images/logos/ipf.jpeg')}
+                                className="mx-auto" />
                         </a>
-                        <h4>India's No.1 Ranked Private University</h4>
-                        <div className="flex md:justify-end justify-center">
+                        <h4>Indian Peoples Forum</h4>
+                        <div className="flex justify-center">
                             <p>
-                                Amrita Vishwa Vidyapeetham, founded in 1994, within the next 2 decades has emerged among the
-                                leading universities in India, and has been conferred the status of Institute of Eminence by the
-                                Govt. of India. It is ranked as the fourth best university in the NIRF Ranking 2020, and has been
-                                swiftly establishing itself as a world class teaching and research institution.
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
                             </p>
                         </div>
                     </div>
                 </Fade>
                 <Fade up>
-                    <div className="w-full md:w-1/3 pr-4 pl-4 bi0s text-center md:order-2 order-1">
-                        <a href="https://bi0s.in">
-                            <img alt="Team bi0s" src={require('../../assets/images/logos/bi0s_dark.png')}
-                                 className="mx-auto" />
+                    <div className="w-full md:w-1/2 pr-4 pl-4 bi0s text-center md:order-2 order-1 ">
+                        <a href="https://app.traboda.com/">
+                            <img alt="Team bi0s" src={require('../../assets/images/logos/traboda_dark.png')}
+                                className="mx-auto" />
                         </a>
-                        <h4>India's No.1 Ranked CTF Hacking Team</h4>
+                        <h4>Traboda Cyber Lab</h4>
                         <div className="flex justify-center">
                             <p>
-                                Team bi0s is a community of college student focusing on cyber security,
-                                and actively participating in CTF contests worldwide. For several years now,
-                                team bi0s has consistently been the No.1 CTF team in India. The team
-                                members also actively involve in security research projects, organizing training
-                                programs & CTFs, and developing security tools.
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
                             </p>
                         </div>
                     </div>
                 </Fade>
-                <Fade right>
+                {/* <Fade right>
                     <div className="w-full md:w-1/3 pr-4 pl-4 cyber md:order-2 order-1 md:text-left text-center">
                         <a href="https://www.amrita.edu/center/cyber-security">
                             <img
@@ -101,7 +93,7 @@ const LandingOrganizers = () => {
                             </p>
                         </div>
                     </div>
-                </Fade>
+                </Fade> */}
             </div>
         </div>
     </OrganizersSection>;

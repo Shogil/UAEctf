@@ -32,7 +32,7 @@ const LandingPage = () => {
             <CTAReg />
             <LandingHowItWorks />
             {/*<LandingTestimonials />*/}
-            <LandingSponsorship />
+            {/* <LandingSponsorship /> */}
             <LandingOrganizers />
             <LandingSearch />
             <LandingContactsBar />
