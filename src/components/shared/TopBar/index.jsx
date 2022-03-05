@@ -135,13 +135,13 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                         Join our discord server, ask your doubts & get support from our experts.
                     </span>
                 </div>
-                <div className="flex items-center md:my-0 px-2 md:px-0 justify-end">
+                {/* <div className="flex items-center md:my-0 px-2 md:px-0 justify-end">
                     <Link href="/discord" passHref>
                         <a className="bg-white text-blue-800 mb-0 hover:text-primary rounded-lg px-3 py-2 whitespace-nowrap">
                             Join Discord Now <i className="fa fa-chevron-right ml-1"/>
                         </a>
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
         <TopbarContainer ref={topbarRef} className={scrollDir + ` ${isAtTop ? 'top' : 'floating'}`}>
