@@ -45,8 +45,7 @@ const LandingHowItWorks = () => {
             "title": "Learn", "icon": require('../../assets/images/icons/learn.png'),
             "delay": 100, "left": true,
             "content": <>
-                Students can dive into cyber security using the world class resources that team bi0s has made available.
-                Learn new concepts using the bi0s wiki and our YouTube channel and practice them at the challenge archive!
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </>,
             "links": [
                 {
@@ -62,29 +61,25 @@ const LandingHowItWorks = () => {
             "title": "Hack", "icon": require('../../assets/images/icons/hack.png'),
             "delay": 500, "top": true,
             "content": <>
-                Students now participate in the Capture The Flag contest, a gamified approach to learning
-                cyber-security. Start by solving simple challenges that test your knowledge and work up
-                to real world situations where you will need a true hacker's skills to succeed!
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </>,
-            "links": [
-                {
-                    "title": "watch how it is played", "url": "https://www.youtube.com/watch?v=9Je6USf7CG0"
-                }
-            ]
+            // "links": [
+            //     {
+            //         "title": "watch how it is played", "url": ""
+            //     }
+            // ]
         },
         {
             "title": "Win", "icon": require('../../assets/images/icons/win.png'),
             "delay": 1000, "right": true,
             "content": <>
-                Students finishing at top of the CTF leaderboard will be awarded with exciting goodies
-                and prizes, and they will also get access to exclusive online cyber-security training
-                following the contest. All other participants will also receive certificates.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </>,
-            "links": [
-                {
-                    "title": "stats & rankings", "url": "/stats"
-                }
-            ]
+            // "links": [
+            //     {
+            //         "title": "", "url": ""
+            //     }
+            // ]
         }
     ]
 
@@ -114,12 +109,12 @@ const LandingHowItWorks = () => {
                         <div className="w-full text-left md:text-center">
                             <p>{s.content}</p>
                             {(s.links && s.links.length > 0) &&
-                            <div className="w-full mt-3 mb-4">{s.links.map((l) =>
-                                <a className="inline-block mx-2 py-2 px-3 mb-2" target="_blank" href={l.url}>
-                                    <i className="fa fa-external-link mr-2" />
-                                    {l.title}
-                                </a>
-                            )}</div>}
+                                <div className="w-full mt-3 mb-4">{s.links.map((l) =>
+                                    <a className="inline-block mx-2 py-2 px-3 mb-2" target="_blank" href={l.url}>
+                                        <i className="fa fa-external-link mr-2" />
+                                        {l.title}
+                                    </a>
+                                )}</div>}
                         </div>
                     </div>
                 </div>
