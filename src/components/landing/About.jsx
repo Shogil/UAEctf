@@ -53,6 +53,7 @@ const AboutInCTFSection = styled.section`
 const HighlightFeature = styled('div')`
     margin-bottom: 1.75rem;
     line-height: 1.3;
+    color:green;
     font-size: calc(1.2rem + 0.15vw);
     span {
         display: inline-block;
@@ -60,6 +61,7 @@ const HighlightFeature = styled('div')`
 `;
 
 const LandingAboutInCTF = () => (
+    <div style={{ color: 'white', background:'black'}}>
     <AboutInCTFSection className="container mx-auto">
         <Zoom up>
             <div className="md:hidden flex justify-center mb-6">
@@ -83,7 +85,7 @@ const LandingAboutInCTF = () => (
                 <div className="md:w-2/3 p-2">
                     <h2 className="mt-2">
                         UAE CyberSecurity Championship & <wbr />
-                        <span>Talent Incubation Programme</span> <wbr />
+                        <span style={{ color: 'red'}}>Talent Incubation Programme</span> <wbr />
                         for for School Students
                     </h2>
                     <p>
@@ -120,6 +122,7 @@ const LandingAboutInCTF = () => (
             </div>
         </Zoom>
     </AboutInCTFSection>
+    </div>
 );
 
 export default LandingAboutInCTF;
