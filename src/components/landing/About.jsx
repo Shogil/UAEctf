@@ -4,6 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const AboutInCTFSection = styled.section`
     padding: 8vh 2.5vw;
+    
     img {
       max-width: 100%;
       padding: 0.5rem;
