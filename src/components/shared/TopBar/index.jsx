@@ -120,7 +120,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
         }
     }, []);
 
-    const isVisible = () => scrollDir === 'up' || isAtTop;
+    const isVisible = () => scrollDir === 'up' || isAtTop ;
 
     useEffect(() => {
         setShowMenu(false);
