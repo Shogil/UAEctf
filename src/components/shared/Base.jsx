@@ -13,7 +13,7 @@ const seoTags = {
 const Base = ({ children, meta }) => {
 
     const title = `${meta && meta.title ? `${meta.title} |` : '' } ${seoTags.siteName} - ${seoTags.tagLine}`;
-    const GoogleAnalyticsID = 'G-XYWG82LV7L';
+    const GoogleAnalyticsID = '';
 
     useEffect(() => {
         navigator.serviceWorker.getRegistrations().then((registrations) => {
