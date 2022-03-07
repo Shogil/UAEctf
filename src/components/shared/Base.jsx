@@ -7,7 +7,7 @@ config({ ssrFadeout: true });
 const seoTags = {
     "siteName": "UAE CTF",
     "tagLine": "UAE CTF 2022 Online Cyber Security Contest for Students.",
-    "description": "Capture the Flag contest. Play CTFs, win prizes and get placed with our sponsors."
+    // "description": "Capture the Flag contest. Play CTFs, win prizes and get placed with our sponsors."
 };
 
 const Base = ({ children, meta }) => {
