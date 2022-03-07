@@ -16,8 +16,8 @@ const TopbarContainer = styled.header`
   left: 0;
   width: 100%;
   z-index: 6000;
-  background: transparent;
-  border-bottom: 2px solid transparent;
+  background: green;
+  border-bottom: 3px solid black;
   box-shadow: none;
   transition: all 300ms ease-in-out;
   transform: translateY(-100%);
@@ -29,9 +29,9 @@ const TopbarContainer = styled.header`
   align-items: center;
 
   &.floating {
-    background: white;
+    background: green;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.35);
-    border-bottom: 2px solid #FF6F00;
+    border-bottom: 2px solid black;
   }
 
   &.up, &.top {
@@ -40,9 +40,9 @@ const TopbarContainer = styled.header`
     opacity: 1;
   }
 
-  &.top {
-    margin-top: 53px;
-  }
+//   &.top {
+//     margin-top: 53px;
+//   }
 
   @media screen and (max-width: 768px) {
     border-top: 2px solid #FF6F00;
@@ -106,7 +106,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
 
     const onScroll = () => {
         let st = window.pageYOffset || document.documentElement.scrollTop;
-        st = st <= 0 ? 0 : st;
+        st = st <= 0 ? 0 : 0;
 
         setScrollDir(st > 83 && st > scrollPrevStateRef.current ? 'down' : 'up');
         setIsAtTop(st <= 83);
@@ -127,7 +127,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
     }, [scrollDir]);
 
     return <div>
-        <div style={{ fontSize: '14px' }} className="hidden md:block p-2 bg-blue-800 text-white">
+        {/* <div style={{ fontSize: '14px' }} className="hidden md:block p-2 bg-blue-800 text-white">
             <div className="flex items-center justify-between">
                 <div className="px-3">
                     Have you got stuck? Need Help? <wbr/>
@@ -135,15 +135,15 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                         Join our discord server, ask your doubts & get support from our experts.
                     </span>
                 </div>
-                {/* <div className="flex items-center md:my-0 px-2 md:px-0 justify-end">
+                <div className="flex items-center md:my-0 px-2 md:px-0 justify-end">
                     <Link href="/discord" passHref>
                         <a className="bg-white text-blue-800 mb-0 hover:text-primary rounded-lg px-3 py-2 whitespace-nowrap">
                             Join Discord Now <i className="fa fa-chevron-right ml-1"/>
                         </a>
                     </Link>
-                </div> */}
+                </div>
             </div>
-        </div>
+        </div> */}
         <TopbarContainer ref={topbarRef} className={scrollDir + ` ${isAtTop ? 'top' : 'floating'}`}>
             <div className="flex flex-wrap justify-center items-center container">
                 <div
