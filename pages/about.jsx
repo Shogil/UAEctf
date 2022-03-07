@@ -24,7 +24,7 @@ const AboutPage = () => {
 
     useEffect(fetchStats, [])
 
-    return <Base meta={{ title: "About InCTF" }}>
+    return <Base meta={{ title: "About UAE CTF" }}>
         <TopBar includeSpace={false} />
         <div style={{ background: '#FAFAFA' }}>
             <Parallax
