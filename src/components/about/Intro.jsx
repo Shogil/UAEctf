@@ -16,7 +16,7 @@ const InctfIntro = () => {
 
     const participantImages = [
         require('../../assets/images/photos/participants/1.jpg'),
-        require('../../assets/images/photos/participants/2.jpg'),
+        require('../../assets/images/photos/participants/2.jpeg'),
         require('../../assets/images/photos/participants/3.jpg'),
         require('../../assets/images/photos/participants/4.jpg')
     ]
