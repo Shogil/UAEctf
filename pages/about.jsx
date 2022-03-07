@@ -33,8 +33,8 @@ const AboutPage = () => {
             />
             <InctfIntro />
             <INCTFStats stats={stats} />
-            <div className="text-center pt-6">
-                <img draggable="false" src={require('../src/assets/images/photos/standing_as_inctf.jpg')} />
+            <div className="text-center ">
+                <img draggable="false" src={require('../src/assets/images/photos/UAE_CTF.jpg')} />
             </div>
             {/*<AboutAchievements />*/}
         </div>

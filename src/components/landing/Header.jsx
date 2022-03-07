@@ -167,12 +167,12 @@ const LandingHeader = ({ UTMSource = null }) => {
                                     </p>
                                 </Fade>
                                 
-                                <a
+                                {/* <a
                                    href="https://conference.inctf.in/"
                                     className="px-8 py-5 mt-4 font-semibold rounded-lg bg-primary text-white hover:bg-blue-800 shadow hover:shadow-xl"
                                 >
                                     InCTF Conference<i className="fa fa-chevron-right"/>
-                                </a>
+                                </a> */}
                                 
                                
                             </div>

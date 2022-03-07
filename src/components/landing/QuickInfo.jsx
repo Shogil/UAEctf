@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const QuickInfoSection = styled.section`
       padding: 2vh 2vw;
       user-select: none;
-      background: white;
+      background: #e0e0e0;
       .col-md-4 {
           display: flex;
           align-items: center;
@@ -46,7 +46,7 @@ const LandingQuickInfo = () => {
             image: require('../../assets/images/icons/graduation.png'), right: true,
             question: "For Whom?", answer: <>
                 School Students &<br/>
-                Grade 7 to 12
+               
             </>,
         }
     ]
