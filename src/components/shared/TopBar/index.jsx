@@ -175,7 +175,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                                 <button
                                     className="px-8 py-4 rounded-lg font-semibold bg-primary hover:bg-blue-800 shadow hover:shadow-xl text-white ml-3"
                                     onClick={() => {
-                                        setShowRegCard(true);
+                                        setShowRegCard(false);
                                         disableBodyScroll(document.body);
                                     }}
                                 >

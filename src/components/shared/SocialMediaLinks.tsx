@@ -4,27 +4,27 @@ const SocialMediaLinks = () => {
 
     const links = [
         {
-            "href": "mailto:inctf@am.amrita.edu",
+            "href": "",
             "icon": "fa fa-envelope"
         },
         {
-            "href": "https://www.instagram.com/inctf.in/",
+            "href": "",
             "icon": "fab fa-instagram"
         },
         {
-            "href": "https://twitter.com/InCTF",
+            "href": "",
             "icon": "fab fa-twitter"
         },
         {
-            "href": "https://www.facebook.com/InCTF",
+            "href": "",
             "icon": "fab fa-facebook"
         },
         {
-            "href": "https://www.youtube.com/InCTF",
+            "href": "",
             "icon": "fab fa-youtube"
         },
         {
-            "href": "/discord",
+            "href": "",
             "icon": "fab fa-discord"
         }
     ];
