@@ -11,6 +11,7 @@ import TopbarItems from "./menu.json";
 import RegistrationModal from "../RegisterModal";
 
 const TopbarContainer = styled.header`
+background: green;
   position: fixed;
   top: 0;
   left: 0;

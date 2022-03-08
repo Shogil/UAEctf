@@ -5,6 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 
 
 const StatsContainer = styled.section`
+
     padding: 2.5vh 0;
     .h2 {
       font-size: calc(1.5rem + 2vw);
@@ -44,11 +45,12 @@ const LandingStatsBar = () => {
         { value: stats?.totalInstitutions || 0, title: "Colleges Participating" },
     ]
 
-    return <StatsContainer className="container mx-auto flex flex-wrap text-center">
+    return <div style={{ color: 'white', background:'black'}}>
+        <StatsContainer className="container mx-auto flex flex-wrap text-center" >
         {statsPreviewer().map((s) =>
             <div className="w-1/2 md:w-1/3 p-4">
                 <Zoom mountOnEnter effect="fadeInUp">
-                    <div className="text-blue-600 h2 mb-2 font-bold">
+                    <div className="text-red-600 h2 mb-2 font-bold">
                         <CountUp delay={0.5} duration={4.5} end={s.value} />{s.suffix}
                     </div>
                     <div className="h5 mb-0">{s.title}</div>
@@ -56,6 +58,7 @@ const LandingStatsBar = () => {
             </div>
         )}
     </StatsContainer>
+    </div>
 
 };
 
