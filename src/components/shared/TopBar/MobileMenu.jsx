@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 import SocialMediaLinks from "../SocialMediaLinks";
 
 const SideBarMenu = styled.div`
+background:green;
   position: fixed;
   bottom: 12vh;
   right: 0.5rem;

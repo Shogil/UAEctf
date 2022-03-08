@@ -16,7 +16,6 @@ const TopbarContainer = styled.header`
   left: 0;
   width: 100%;
   z-index: 6000;
-  background: green;
   border-bottom: 3px solid black;
   box-shadow: none;
   transition: all 300ms ease-in-out;
@@ -45,9 +44,9 @@ const TopbarContainer = styled.header`
 //   }
 
   @media screen and (max-width: 768px) {
-    border-top: 2px solid #FF6F00;
+    border-top: 2px solid white;
     border-bottom: none !important;
-    background: white;
+    background: green;
     top: initial;
     bottom: 0;
     transform: translateY(100%);
@@ -189,7 +188,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                     <TopbarInfoCard className="mr-3">
                         <button
                             onClick={() => {
-                                setShowRegCard(true);
+                                setShowRegCard(false);
                                 disableBodyScroll();
                             }}
                             className="w-full px-5 py-4 font-semibold rounded-lg bg-primary text-white hover:bg-blue-800 shadow hover:shadow-xl ml-3"
@@ -216,7 +215,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
             onClose={onClose}
         />}
         <div style={{ height: topbarRef.current?.offsetHeight ?? 90 }} className="hidden md:block"/>
-        <div className="block md:hidden text-center pt-6 px-2 pb-4">
+        <div className="block md:hidden text-center pt-6 px-2 pb-4" style={{background:'green'}}>
             <Link passHref href="/">
                 <a>
                     <img
