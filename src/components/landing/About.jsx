@@ -110,12 +110,12 @@ const LandingAboutInCTF = () => (
                     <div>
                         
                         <HighlightFeature>
-                            2-month Long Completely Free, <wbr /> <span>End-to-End Programme</span>
+                            3-month Long Completely Free, <wbr /> <span>End-to-End Programme</span>
                         </HighlightFeature>
                         
                         <HighlightFeature>
-                            Organized by India's No.1 Ranked <wbr />
-                            <span>CTF CyberSecurity Team - bi0s</span>
+                            Organized by Indian Peoples Forum <wbr />
+                            <span>and Traboda Cyber Lab</span>
                         </HighlightFeature>
                     </div>
                 </div>
