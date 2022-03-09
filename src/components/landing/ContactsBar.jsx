@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const ContactsBarSection = styled.section`
     padding: 5vh 3vw;
-    background: #222640;
+    background: black;
     color: white;
     img {
       max-height: 64px;

@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 const FooterContainer = styled.footer`
-    background: #222640;
+    background: black;
     color: white;
     padding: 1rem;
     font-size: 14px;
