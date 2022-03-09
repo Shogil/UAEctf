@@ -15,6 +15,7 @@ const ReasonsSection = styled.section`
   padding: 8vh 2vw;
   color: black;
   h2 {
+      color:white;
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
@@ -58,7 +59,8 @@ const LandingReasonsToParticipate = () => {
         },
     ];
 
-    return <ReasonsSection className="container mx-auto">
+    return <div style={{ color: 'white', background:'black'}}>
+        <ReasonsSection className="container mx-auto">
         <h2 className="text-center">
             <div className="flex justify-center">
                 <img className="mr-2" style={{ width: '64px'}} alt="Why Participate?" src={require('../../assets/images/icons/heart.png')} />
@@ -70,12 +72,13 @@ const LandingReasonsToParticipate = () => {
             <Zoom up={index%2} left={!index%2}>
                 <div className="w-full md:w-1/2 lg:w-1/4 text-center mb-6 md:mb-0 p-2">
                     <video autoPlay loop muted src={r.video} />
-                    <div>{r.title}</div>
+                    <div style={{color: 'white'}}>{r.title}</div>
                 </div>
             </Zoom>
         )}
         </div>
     </ReasonsSection>
+    </div>
 
 };
 

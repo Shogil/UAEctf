@@ -47,14 +47,14 @@ const LandingHowItWorks = () => {
             "content": <>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </>,
-            "links": [
-                {
-                    "title": "learn from bi0s wiki", "url": "https://wiki.bi0s.in/"
-                },
-                {
-                    "title": "practice on Traboda", "url": "https://app.traboda.com/"
-                }
-            ]
+            // "links": [
+            //     {
+            //         "title": "learn from bi0s wiki", "url": "https://wiki.bi0s.in/"
+            //     },
+            //     {
+            //         "title": "practice on Traboda", "url": "https://app.traboda.com/"
+            //     }
+            // ]
 
         },
         {
@@ -83,7 +83,8 @@ const LandingHowItWorks = () => {
         }
     ]
 
-    return <HowItWorksSection className="motto-cards flex flex-wrap py-5 mx-0 container mx-auto">
+    return <div style={{ color: 'white', background:'black'}}>
+        <HowItWorksSection className="motto-cards flex flex-wrap py-5 mx-0 container mx-auto">
         <div className="w-full flex justify-center p-0 mb-12 px-4">
             <h2 className="md:px-4 px-1 py-2 rounded-r mt-4 mb-2 md:flex inline-block items-center font-bold text-center mb-0">
                 <img
@@ -121,6 +122,7 @@ const LandingHowItWorks = () => {
             </Fade>
         )}
     </HowItWorksSection>
+    </div>
 
 };
 
