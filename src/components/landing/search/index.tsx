@@ -12,7 +12,8 @@ const LandingSearch = () => (
         <img
             alt="amritapuri vector illustration"
             draggable="false"
-            src={require('../../../assets/images/logos/uae.png')}
+            style={{width:'100%'}}
+            src={require('../../../assets/images/logos/vector.jpeg')}
         />
     </div>
 );

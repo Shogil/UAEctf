@@ -153,7 +153,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                         <img
                             className="logo"
                             src={require('../../../assets/images/logos/inctf_light.png')}
-                            style={{width: '60px', height: '80px',float: 'left', objectFit:'cover'}}
+                            
                             alt="UAE CTF"
                         />
                     </a>
@@ -174,7 +174,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                                     <TopBarSearch />
                                 </nav>
                                 <button
-                                    className="px-8 py-4 rounded-lg font-semibold bg-primary hover:bg-blue-800 shadow hover:shadow-xl text-white ml-3"
+                                    className="px-8 py-4 rounded-lg font-semibold bg-red-600 hover:bg-black shadow hover:shadow-xl text-white ml-3"
                                     onClick={() => {
                                         setShowRegCard(false);
                                         disableBodyScroll(document.body);
