@@ -180,7 +180,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                                         disableBodyScroll(document.body);
                                     }}
                                 >
-                                    Login <i className="fa fa-chevron-right"/>
+                                    Register <i className="fa fa-chevron-right"/>
                                 </button>
                             </TopbarInfoCard>
                         </div>
@@ -195,7 +195,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                             }}
                             className="w-full px-5 py-4 font-semibold rounded-lg bg-primary text-white hover:bg-blue-800 shadow hover:shadow-xl ml-3"
                         >
-                            Login <i className="fa fa-chevron-right"/>
+                            Register <i className="fa fa-chevron-right"/>
                         </button>
                     </TopbarInfoCard>
                     <button onClick={onOpen} className="transition" style={{ width: 46, height: 46 }}>

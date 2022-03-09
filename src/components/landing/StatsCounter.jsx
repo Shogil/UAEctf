@@ -42,7 +42,7 @@ const LandingStatsBar = () => {
     const statsPreviewer = () => [
         { value: stats?.registrations || 0, title: "Total Participants" },
         { value: stats?.regToday || 0, title: "Registrations Today" },
-        { value: stats?.totalInstitutions || 0, title: "Colleges Participating" },
+        { value: stats?.totalInstitutions || 0, title: "schools Participating" },
     ]
 
     return <div style={{ color: 'white', background:'black'}}>
