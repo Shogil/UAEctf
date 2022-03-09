@@ -149,10 +149,11 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                 <div
                     className="w-1/4 md:w-1/3 xl:w-1/4 md:text-center flex flex-wrap items-center md:justify-end justify-center px-2"
                 >
-                    <a className="w-full md:w-1/3" href="/">
+                    <a className="w-full md:w-2/3" href="/">
                         <img
                             className="logo"
-                            src={require('../../../assets/images/logos/inctf.png')}
+                            src={require('../../../assets/images/logos/inctf_light.png')}
+                            style={{width: '60px', height: '80px',float: 'left', objectFit:'cover'}}
                             alt="UAE CTF"
                         />
                     </a>
@@ -223,7 +224,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                         alt="InCTF"
                         style={{ height: '72px' }}
                         className="inline"
-                        src={require('../../../assets/images/branding/colorful.png')}
+                        src={require('../../../assets/images/branding/inctf_light.png')}
                     />
                 </a>
             </Link>
