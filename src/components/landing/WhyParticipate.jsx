@@ -42,19 +42,19 @@ const LandingReasonsToParticipate = () => {
 
     const reasons = [
         {
-            "video": require('../../assets/videos/hands_on_learning.mp4'),
+            "video": require('../../assets/images/photos/participants/1.jpg'),
             "title": <>Learn Hands-On, <br /> & Get a Head Start to CyberSec.</>
         },
         {
-            "video":  require('../../assets/videos/excitement.mp4'),
+            "video":  require('../../assets/images/photos/participants/1.jpg'),
             "title": <>Understand the latest happenings in the Cyber security realm</>
         },
         {
-            "video": require('../../assets/videos/new_friends.mp4'),
+            "video": require('../../assets/images/photos/participants/1.jpg'),
             "title": <>Make new friends,<br /> become part of our community</>
         },
         {
-            "video": require('../../assets/videos/meet_the_experts.mp4'),
+            "video": require('../../assets/images/photos/participants/1.jpg'),
             "title": <>Get to Meet & Interact with Top Engineers from the Industry</>
         },
     ];
@@ -71,7 +71,8 @@ const LandingReasonsToParticipate = () => {
         {reasons.map((r, index) =>
             <Zoom up={index%2} left={!index%2}>
                 <div className="w-full md:w-1/2 lg:w-1/4 text-center mb-6 md:mb-0 p-2">
-                    <video autoPlay loop muted src={r.video} />
+                    {/* <video autoPlay loop muted src={r.video} /> */}
+                    <img src={r.video} /><br/>
                     <div style={{color: 'white'}}>{r.title}</div>
                 </div>
             </Zoom>
