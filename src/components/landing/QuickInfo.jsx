@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const QuickInfoSection = styled.section`
       padding: 2vh 2vw;
       user-select: none;
-      background: #d1e8e2;
+      background: #8dbdb070;
       .col-md-4 {
           display: flex;
           align-items: center;
@@ -21,13 +21,13 @@ const QuickInfoSection = styled.section`
           text-transform: uppercase;
           line-height: 1.2;
           margin-bottom: 0.25rem;
-          color: #ffcb9a;
+          color: #985414;
       }
       .ans {
         font-size: 18px;
         line-height: 1.5;
         font-weight: 300;
-        color: #ffcb9a;
+        color: #985414;
       }
 `;
 
