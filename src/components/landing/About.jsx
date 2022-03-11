@@ -4,20 +4,22 @@ import Zoom from 'react-reveal/Zoom';
 
 const AboutInCTFSection = styled.section`
     padding: 8vh 2.5vw;
-    
+    background-color:#8dbdb0;
     img {
       max-width: 100%;
+      
       padding: 0.5rem;
       border-radius: 8px;
       box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.3);
     }
     h2 {
         font-weight: 700;
+        color:black;
         line-height: 1.2;
         font-size: calc(1.25rem + 1.2vw);
         margin-bottom: 1.75rem;
         span {
-          color: #E65100;
+          color: #a2142b;
         }
     }
     p {
