@@ -73,7 +73,7 @@ const FAQPage = () => {
                 <p className="text-dark ">
                     Your question in not one among our frequently asked questions.
                     You could try rephrasing the question in a different way, or
-                    can join our <a href="/discord" target="_blank" className="hover:text-blue-600">discord community <i className="fa fa-external-link mr-1" /> </a> to ask us directly.
+                    can join our <a href="" target="_blank" className="hover:text-blue-600">discord community <i className="fa fa-external-link mr-1" /> </a> to ask us directly.
                 </p>
             </div>
         );
@@ -84,19 +84,19 @@ const FAQPage = () => {
         <FAQSection>
             <h1 className="text-primary text-center text-3xl lg:text-6xl py-4">Frequently Asked Questions</h1>
             <div className="px-6 mx-auto" style={{ maxWidth: 800, minHeight: '50vh' }}>
-                <FAQFilter
+                {/* <FAQFilter
                     search={search}
                     setSearch={setSearch}
                     tags={tags}
                     setTags={setTags}
                     totalTags={totalTags}
-                />
+                /> */}
                 {renderFAQ()}
                 <Waypoint onEnter={() => updateTotalVisible(totalVisible + 4)}>
                     <div className="my-6 text-center">
                         <div style={{ color: '#111' }}>Did not find what you were looking for?</div>
                         <div style={{ color: '#222' }}>
-                            Write to us at <a href="mailto:inctf@am.amrita.edu">inctf@am.amrita.edu</a>
+                            Write to us at <a href=""> example@gmail.com</a>
                         </div>
                     </div>
                 </Waypoint>
