@@ -8,7 +8,7 @@ import DailyGraph from "./daily";
 import StatsCounter from "../../../components/landing/StatsCounter.jsx"
 
 const StatsSection = styled.div`
-  background: white;
+  background: black;
   padding: 7.5vh 2vw;
   user-select: none;
 
@@ -19,6 +19,7 @@ const StatsSection = styled.div`
 
 const StatsContainer = styled.section`
   h2 {
+    
     font-size: calc(1.5rem + 2.5vw);
     margin-bottom: 0;
     line-height: 1.2;

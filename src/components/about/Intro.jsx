@@ -8,6 +8,7 @@ const IntroSectionWrap = styled.div`
       width: 100%;
       max-width: 800px;
       margin-bottom: 1rem;
+      color: white;
     }
 `;
 
@@ -26,7 +27,7 @@ const InctfIntro = () => {
             <div className="flex flex-wrap">
                 <div className="md:w-2/3 pr-4 pl-4 flex items-center p-6">
                     <div>
-                        <Fade up><h1 className="font-bold mb-6">Why UAE CTF Junior?</h1></Fade>
+                        <Fade up><h1 className="font-bold mb-6" style={{color:'white'}}>Why UAE CTF Junior?</h1></Fade>
                         <Fade>
                             <p>
                             As interactions through cyberspace have become the ‘new normal’ in a post-covid world with employment, 

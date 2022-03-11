@@ -11,7 +11,7 @@ import TopbarItems from "./menu.json";
 import RegistrationModal from "../RegisterModal";
 
 const TopbarContainer = styled.header`
-background: green;
+background: #d1e8e2;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,7 @@ background: green;
   align-items: center;
 
   &.floating {
-    background: green;
+    background: #2c3531;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.35);
     border-bottom: 2px solid black;
   }

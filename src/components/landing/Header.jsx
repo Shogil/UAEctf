@@ -5,7 +5,7 @@ import Pulse from "react-reveal/Pulse";
 import Fade from 'react-reveal/Fade';
 
 const HeaderContainer = styled.section`
-background: black;
+
     position: relative;
     display: flex;
     align-items: center;
@@ -153,14 +153,14 @@ const LandingHeader = ({ UTMSource = null }) => {
                             <div className="md:w-2/3 mb-4 px-4">
                                 <Pulse>
                                     <h1 style={{ color: 'red'}}>
-                                        <span style={{ color: 'white'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER-AVENGERS</span><br/>
+                                        <span style={{ color: 'black'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER-AVENGERS</span><br/>
                                         MARCH 2022 - JUNE 2022.
 
                                     </h1>
                                 </Pulse>
                                 <Fade up>
                                     <p>
-                                        <span className="mt-6" style={{ color: 'white'}}>
+                                        <span className="mt-6" style={{ color: 'black'}}>
                                         UAE CTF 2022 Online Cyber Security Contest for Students, organised by Traboda CyberLabs and IPF.
                                         </span>
                                         <br/><br/>
