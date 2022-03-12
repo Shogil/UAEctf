@@ -26,12 +26,12 @@ const AboutPage = () => {
 
     return <Base meta={{ title: "About UAE CTF" }}>
         <TopBar includeSpace={false} />
-        <div style={{ background: 'black' }}>
+        <div style={{ background: '' }}>
             <Parallax
                 background={require('../src/assets/images/covers/UAE-About.jpg')}
                 height="600px"
             />
-            <InctfIntro style={{ background: 'black',color: 'white' }}/>
+            <InctfIntro style={{ background: '',color: '' }}/>
             <INCTFStats stats={stats} />
             <div className="text-center ">
                 <img draggable="false" src={require('../src/assets/images/photos/uae.jpg')} />
