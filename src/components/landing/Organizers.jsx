@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
 
 const OrganizersSection = styled.section`
-background:black;
+
     user-select: none;
     .content-container {
       padding: 5vh 5vw;
@@ -53,9 +53,9 @@ const LandingOrganizers = () => {
                             <img alt="Indian Peoples Forum" src={require('../../assets/images/logos/ipf.jpeg')}
                                 className="mx-auto" />
                         </a>
-                        <h4 style={{color: 'white'}}>Indian Peoples Forum</h4>
+                        <h4 style={{color: ''}}>Indian Peoples Forum</h4>
                         <div className="flex justify-center">
-                            <p style={{color: 'white'}}>
+                            <p style={{color: ''}}>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
                             </p>
                         </div>
@@ -67,9 +67,9 @@ const LandingOrganizers = () => {
                             <img alt="Team bi0s" src={require('../../assets/images/logos/traboda_dark.png')}
                                 className="mx-auto" />
                         </a>
-                        <h4 style={{color: 'white'}}>Traboda Cyber Lab</h4>
+                        <h4 style={{color: ''}}>Traboda Cyber Lab</h4>
                         <div className="flex justify-center">
-                            <p style={{color: 'white'}}>
+                            <p style={{color: ''}}>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
                             </p>
                         </div>

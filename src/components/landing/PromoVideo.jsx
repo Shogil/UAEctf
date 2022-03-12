@@ -23,7 +23,7 @@ const LandingPromoVideoSection = styled('section')`
 `;
 
 const LandingPromoVideo = () => (
-    <div style={{ color: 'white', background:'black'}}>
+    <div style={{ color: '', background:''}}>
     <LandingPromoVideoSection className="container mx-auto">
         <div className="promo-video-container p-0 md:p-3">
             <ReactPlayer url="https://youtu.be/MICFZTmNOog" width="100%" height="100%" />

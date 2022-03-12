@@ -3,8 +3,7 @@ import styled from "@emotion/styled";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 const FooterContainer = styled.footer`
-    background: black;
-    color: white;
+    
     padding: 1rem;
     font-size: 14px;
     img {
@@ -16,7 +15,6 @@ const FooterContainer = styled.footer`
 const FooterLinksBar = styled.nav`
     a {
        font-size: 13px;
-       color: white;
        opacity: 0.8;
        margin-right: 8px;
        margin-bottom: 5px;
@@ -47,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="social-bar md:w-1/3 py-4 md:py-0 w-full order-1 md:order-2 text-white flex items-center md:justify-end justify-center px-1">
+                <div className="social-bar md:w-1/3 py-4 md:py-0 w-full order-1 md:order-2 text-black flex items-center md:justify-end justify-center px-1">
                     <SocialMediaLinks />
                 </div>
             </div>

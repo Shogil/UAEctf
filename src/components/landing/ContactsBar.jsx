@@ -4,8 +4,6 @@ import Fade from 'react-reveal/Fade';
 
 const ContactsBarSection = styled.section`
     padding: 5vh 3vw;
-    background: black;
-    color: white;
     img {
       max-height: 64px;
       margin-right: 8px;
@@ -52,7 +50,7 @@ const LandingContactsBar = () => {
                             <div>Powered By Traboda</div>
                             <a href="https://app.traboda.com">
                                 <img
-                                    src={require('../../assets/images/logos/traboda_light.png')}
+                                    src={require('../../assets/images/logos/traboda_dark.png')}
                                     alt="Traboda" draggable="false"
                                 />
                             </a>

@@ -45,7 +45,7 @@ const LandingStatsBar = () => {
         { value: stats?.totalInstitutions || 0, title: "schools Participating" },
     ]
 
-    return <div style={{ color: 'white', background:'black'}}>
+    return <div style={{ color: '', background:''}}>
         <StatsContainer className="container mx-auto flex flex-wrap text-center" >
         {statsPreviewer().map((s) =>
             <div className="w-1/2 md:w-1/3 p-4">

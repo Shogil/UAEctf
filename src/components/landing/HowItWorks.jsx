@@ -83,7 +83,7 @@ const LandingHowItWorks = () => {
         }
     ]
 
-    return <div style={{ color: 'white', background:'black'}}>
+    return <div style={{ color: '', background:''}}>
         <HowItWorksSection className="motto-cards flex flex-wrap py-5 mx-0 container mx-auto">
         <div className="w-full flex justify-center p-0 mb-12 px-4">
             <h2 className="md:px-4 px-1 py-2 rounded-r mt-4 mb-2 md:flex inline-block items-center font-bold text-center mb-0">
