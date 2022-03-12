@@ -55,7 +55,7 @@ const AboutInCTFSection = styled.section`
 const HighlightFeature = styled('div')`
     margin-bottom: 1.75rem;
     line-height: 1.3;
-    color:green;
+    color:#ba1833;
     font-size: calc(1.2rem + 0.15vw);
     span {
         display: inline-block;
