@@ -21,13 +21,13 @@ const QuickInfoSection = styled.section`
           text-transform: uppercase;
           line-height: 1.2;
           margin-bottom: 0.25rem;
-          color: #985414;
+          color: #000;
       }
       .ans {
         font-size: 18px;
         line-height: 1.5;
         font-weight: 300;
-        color: #985414;
+        color: #ba1833;
       }
 `;
 
