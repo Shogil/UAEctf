@@ -1,7 +1,11 @@
 [
   {
     "label": "About",
-    "link": "/about",
+    "link": "/about"
+  },
+  {
+    "label": "Sponsors",
+    "link": "",
     "items": [
       
       {
@@ -11,16 +15,13 @@
       {
         "label": "Advisory Board",
         "link": ""
-      },
-      {
-        "label": "Sponsors",
-        "link": ""
       }
     ]
   },
-
-
-
+  {
+    "label": "FAQ",
+    "link": "/faq"
+  },
   {
     "label": "Championship",
     "link": "/championship",
@@ -62,9 +63,5 @@
         "link": ""
       }
     ]
-  },
-  {
-    "label": "FAQ",
-    "link": ""
   }
 ]
