@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const AboutInCTFSection = styled.section`
     padding: 8vh 2.5vw;
-    background-color:#8dbdb0;
+    background:#8dbdb0;
     img {
       max-width: 100%;
       
@@ -63,7 +63,7 @@ const HighlightFeature = styled('div')`
 `;
 
 const LandingAboutInCTF = () => (
-    <div style={{ color: 'white', background:'black'}}>
+    <div style={{background:'#8dbdb0;'}}>
     <AboutInCTFSection className="container mx-auto">
         <Zoom up>
             <div className="md:hidden flex justify-center mb-6">
