@@ -8,7 +8,7 @@ import DailyGraph from "./daily";
 import StatsCounter from "../../../components/landing/StatsCounter.jsx"
 
 const StatsSection = styled.div`
-  background: black;
+ 
   padding: 7.5vh 2vw;
   user-select: none;
 
@@ -42,7 +42,7 @@ const INCTFStats = ({stats}) => {
     return (
         <StatsSection id="our-reach">
             <h2 className="text-center mb-8 text-3xl md:text-4xl lg:text-5xl">
-                InCTF 21 is one of the world's largest CTF
+                UAE CTF  is one of the world's largest CTF
             </h2>
             <StatsCounter/>
             {/* <div className="flex flex-wrap items-center">
