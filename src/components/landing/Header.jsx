@@ -152,7 +152,7 @@ const LandingHeader = ({ UTMSource = null }) => {
                         <div className="flex flex-wrap  mx-0">
                             <div className="md:w-2/3 mb-4 px-4">
                                 <Pulse>
-                                    <h1 style={{ color: 'red'}}>
+                                    <h1 style={{ color: '#ba1833'}}>
                                         <span style={{ color: 'black'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER-AVENGERS</span><br/>
                                         MARCH 2022 - JUNE 2022.
 
@@ -164,7 +164,7 @@ const LandingHeader = ({ UTMSource = null }) => {
                                         UAE CTF 2022 Online Cyber Security Contest for Students, organised by Traboda CyberLabs and IPF.
                                         </span>
                                         <br/><br/>
-                                        <b style={{ color: 'green'}}>An amazing contest to kick-start your cybersecurity career and also win exciting prizes!</b>
+                                        <b style={{ color: '#ba1833'}}>An amazing contest to kick-start your cybersecurity career and also win exciting prizes!</b>
                                     </p>
                                 </Fade>
                                 

@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const QuickInfoSection = styled.section`
       padding: 2vh 2vw;
       user-select: none;
-      background: #8dbdb070;
+      background: #f5f5f5a8;
       .col-md-4 {
           display: flex;
           align-items: center;
