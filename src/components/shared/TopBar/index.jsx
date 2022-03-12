@@ -61,7 +61,7 @@ background: #FFF;
       transition: color 250ms ease;
 
       &:hover {
-        color: #fd7e14;
+        color: rgb(186, 24, 51);
       }
     }
   }
