@@ -39,13 +39,13 @@ const LandingQuickInfo = () => {
             question: "What?", answer: <>Cyber-Security Training & <br /> Capture The Flag (CTF) Championship</>
         },
         {
-            image: require('../../assets/images/icons/calendar.png'), up: true,
+            image: require('../../assets/images/icons/clg.webp'), up: true,
             question: "When?", answer: <>
                 March 20th to June 19th
             </>
         },
         {
-            image: require('../../assets/images/icons/graduation.png'), right: true,
+            image: require('../../assets/images/icons/school.webp'), right: true,
             question: "For Whom?", answer: <>
                 School Students <br/>
                

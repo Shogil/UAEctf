@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import SocialMediaLinks from "../SocialMediaLinks";
 
 const SideBarMenu = styled.div`
-background:green;
+
   position: fixed;
   bottom: 12vh;
   right: 0.5rem;
@@ -64,11 +64,11 @@ const MobileMenu = ({ onClose }) => {
     const sidebarLinks = [
         { "icon": require('../../../assets/images/icons/home.png'), "title": "Home", "href": "/" },
         { "icon": require('../../../assets/images/icons/star_glowing.png'), "title": "About", "href": "/about" },
-        { "icon": require('../../../assets/images/icons/learn.png'), "title": "Resources", "href": "/resources"},
-        { "icon": require('../../../assets/images/icons/learn.png'), "title": "Trainings", "href": "/trainings" },
-        { "icon": require('../../../assets/images/icons/trophy.png'), "title": "Past Stats", "href": "/stats" },
+        // { "icon": require('../../../assets/images/icons/learn.png'), "title": "Resources", "href": "/resources"},
+        // { "icon": require('../../../assets/images/icons/learn.png'), "title": "Trainings", "href": "/trainings" },
+        // { "icon": require('../../../assets/images/icons/trophy.png'), "title": "Past Stats", "href": "" },
         { "icon": require('../../../assets/images/icons/faq.png'), "title": "FAQ", "href": "/faq" },
-        { "icon": require('../../../assets/images/icons/faq.png'), "title": "Get Help", "href": "/discord" },
+        // { "icon": require('../../../assets/images/icons/faq.png'), "title": "Get Help", "href": "" },
     ];
 
     return <div onClick={onClose}>
