@@ -18,7 +18,7 @@ const AboutInCTFSection = styled.section`
         font-size: calc(1.25rem + 1.2vw);
         margin-bottom: 1.75rem;
         span {
-          color: #a2142b;
+          color: #ba1833;
         }
     }
     p {
@@ -86,7 +86,7 @@ const LandingAboutInCTF = () => (
                 <div className="md:w-2/3 p-2">
                     <h2 className="mt-2">
                         UAE CyberSecurity Championship & <wbr />
-                        <span style={{ color: 'red'}}>Talent Incubation Programme</span> <wbr />
+                        <span style={{ color: '#ba1833'}}>Talent Incubation Programme</span> <wbr />
                         for for School Students
                     </h2>
                     <p>
