@@ -33,13 +33,9 @@
       },
       {
         "label": "Prizes",
-        "badge": "3 Lks+",
+        "badge": "",
         "badgeColor": "bg-green-100",
         "link": "championship/#prizes"
-      },
-      {
-        "label": "Past Winners",
-        "link": ""
       }
     ]
   },
