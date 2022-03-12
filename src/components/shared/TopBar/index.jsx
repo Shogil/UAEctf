@@ -47,7 +47,6 @@ background: #FFF;
   @media screen and (max-width: 768px) {
     border-top: 2px solid white;
     border-bottom: none !important;
-    background: green;
     top: initial;
     bottom: 0;
     transform: translateY(100%);
@@ -217,7 +216,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
             onClose={onClose}
         />}
         <div style={{ height: topbarRef.current?.offsetHeight ?? 90 }} className="hidden md:block"/>
-        <div className="block md:hidden text-center pt-6 px-2 pb-4" style={{background:'green'}}>
+        <div className="block md:hidden text-center pt-6 px-2 pb-4" style={{background:''}}>
             <Link passHref href="/">
                 <a>
                     <img
