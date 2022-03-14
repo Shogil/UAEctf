@@ -11,7 +11,7 @@ import TopbarItems from "./menu.json";
 import RegistrationModal from "../RegisterModal";
 
 const TopbarContainer = styled.header`
-background: #FFF;
+background: #f7f7f7;
   position: fixed;
   top: 0;
   left: 0;
@@ -151,7 +151,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                     <a className="w-full md:w-2/3" href="/">
                         <img
                             className="logo"
-                            src={require('../../../assets/images/logos/inctf_light.png')}
+                            src={require('../../../assets/images/logos/logo.jpeg')}
                             
                             alt="UAE CTF"
                         />
