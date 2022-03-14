@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="flex flex-wrap  mx-0">
                 <div className="md:w-2/3 order-2 md:order-1 text-center md:text-left px-1">
                     <div className="md:flex items-center block">
-                        <img draggable="false" className="inline mb-3" alt="Amrita InCTF" src={require('../../assets/images/branding/light_version.png')} />
+                        <img draggable="false" className="inline mb-3" alt="Amrita InCTF" src={require('../../assets/images/branding/logo.jpeg')} />
                         <div className="md:ml-6 py-3">
                             <div className="line-height-1 opacity-80 my-2 md:mb-1 md:mt-0">
                                 &copy; UAE CTF 2022-2023. <span className="inline-block">All Rights Reserved.</span>
