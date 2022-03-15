@@ -7,11 +7,10 @@ import Modal from 'react-modal';
 
 
 const TestimonialSection = styled.section`
-margin: 0 auto;
+    margin: 0 auto;
   max-width: 800px;
   padding: 25px;
   display: grid;
-  font-family: "Fira Sans", sans-serif;
  
 `;
 
