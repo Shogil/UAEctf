@@ -36,81 +36,59 @@ const RulePage = () => {
         <TopBar darkenOnSidebar includeSpace />
         <PageHeader
             title="Rules"
-            breadcrumb={[
-                {
-                    title: 'Championship',
-                    link: '/championship'
-                },
-                {
-                    title: 'Rules',
-                    link: '/rules',
-                    isActive: true
-                }
-            ]}
+        // breadcrumb={[
+
+        //     {
+        //         title: 'Rules',
+        //         link: '/rules',
+        //         isActive: true
+        //     }
+        // ]}
         />
         <div className="flex justify-center p-4">
             <RulesContainer className="container">
                 <div style={{ width: '100%', maxWidth: '900px' }}>
-                    <h1>Rules for Student Participants</h1>
-                    <h2>Eligibility for Participation</h2>
+                    <h1>Rules for the event </h1>
+                    <p>The UAE Cyber League is annual cyber-security championship organized for school students in UAE by Traboda CyberLabs Private Limited (“Organizers”). By participating in the Contest, all Participants agree to the following rules -</p>
+                    <h2>Participation </h2>
                     <p>
-                        1.All participating students should be permanent residents and citizens of the Republic of India.     
+                        Each individual who participates in the competition (“Participant”) in order to be eligible for the finals / prizes must be:
                     </p>
+                    <ul>
+                        <li><b>not more than nineteen (19) years of age upon your date of registration for the Contest on the Contest website.</b></li>
+                        <li><b>must not have completed 12th or equivalent grade of school.</b></li>
+                        <li><b>enrolled for any pre-university (high school or secondary school) programme when they register. However, in case the Participant is undergoing distant education or other non-traditional programmes of schooling, they are required to inform the organizers about the same</b></li>
+                    </ul>
                     <p>
-                        2.All participants should be a student who has not completed a bachelor's degree.     
+                    The Organizers may request for the proofs upon a Participant’s qualification to the finals, and these shall be thoroughly verified if you win any prizes. Any refusal or failure to timely provide such proof may result in disqualification of the Participant from the Contest.An individual not meeting the eligibility criteria is welcomed to participate in the contest for learning and practice, however, they shall not be eligible for qualification to the finals or for any prizes
                     </p>
-                    <h2>Rules for the final contest</h2>
                     <ul>
-                            <li><b>Beginners are only eligible for prizes.</b></li>
-                            <li><b>Teams with any member having more than 1.5/2 years in CTF is not a beginner Note: this is not applicable for inctf professionals</b></li>
-                            <li><b>Prizes will be distributed within 3 month after the CTF</b></li>
-
-                            <li><b>Team should not carry out any attacks on the CTF infrastructure.</b></li> 
-                            <li><b>No DoS, DdoS, bruteforcing, automated scans or generating any large amount of traffic by any other means on any challenges and other contest infrastructure. It is not permitted and is never intended in any question.</b></li> 
-                            <li><b>No collaboration between different teams and flag sharing is not allowed.</b></li> 
-                            <li><b>Participants/Teams are NOT allowed to publish solutions during the course of game (blog, GitHub, YouTube, etc)</b></li> 
-                            <li><b>Any participants/Teams found violating the above rules will be disqualified from the contest</b></li> 
-                            <li><b>Team InCTF reserves the right to introduce new rules or modify existing rules during or after the contest. Any such rules will be applicable to all the participants in the contest</b></li> 
-                            <li><b>The decision of Team InCTF will be final</b></li> 
-                            <li> <b>By participating in the contest, you agree that you have read the above rules and fully agree to adhere to them.</b></li> 
-                        
+                        <li><b>Registration fees is not refundable</b></li>
                     </ul>
-                    {/* <h2>Rules for Self-Study Students</h2>
+                    <h2>Malpractices</h2>
                     <ul>
-                        <li>Students who are doing self-study and are not enrolled in any education institution can participate in InCTF individually or as a team.</li>
-                        <li>The student, and in case of team formation, the team shall not be affiliated with any institution or state.</li>
-                        <li>All other members of the team shall be students either doing self-study or be enrolled in any educational institution pursuing a bachelors/Masters/PhD program.</li>
-                        <li>To register as a self-study student, the student needs to contact at inctf@am.amrita.edu and need to complete verification. </li>
-                    </ul>
-                    <h2>Qualification Rules to Finals</h2>
-                    <ul>
-                        <li>Minimum Eligibility Rules: A team should solve at least 5 challenges in-order to qualify for the finals.</li>
-                        <li>Scoreboard Toppers - The top 30 teams with minimum eligibility on the scoreboard shall be selected for the finals.</li>
-                        <li>Regional Toppers - The top 5 teams with minimum eligibility from each state shall be selected for the finals. This is in-addition to, and does not include teams already qualified as scoreboard toppers.</li>
-                        <li>Women in CyberSecurity Initiative - The top 25 women-only teams with minimum eligibility shall be selected for the finals. This is in-addition to, and does not include  women-only teams that qualified as scoreboard toppers and regional toppers from their respective states.</li>
-                        <li>Self-Study Students: Top 25 self-study students/student teams with minimum eligibility shall be selected for the finals. This is in-addition, and does not include those already qualified as scoreboard toppers.</li>
-                        <li>All team members shall need to submit their ID cards for verification. Teams failing to complete ID card verification of all its members in due time shall be disqualified, and the next eligible team from their quota shall be considered.</li>
-                    </ul> */}
-                    <h1>Rules for Professionals</h1>
-                    <h2>Eligibility for Participation </h2>
-                    <p>All participating professionals should be permanent residents and citizens of the Republic of India.</p>
-                    <p>All participants should be full-time employees of an incorporated company.</p>
-                    {/* <h2>Team Formation Rules</h2>
-                    <ul>
-                        <li><b> Professionals working in India are eligible for prizes Team can have Max of 5 and Min of 2 members.</b></li>
-                        <li><b>Teams can be formed in any manner.</b></li>
-                        <li><b>Top 20 teams from from the qualifier round will be selected for the finals.</b></li>
-                        <li><b>The teams should score above 500 points to qualify for the final selection.</b></li>
-                        <li><b>Professional teams cannot club with the student team.</b></li>
-                        <li><b>One participant cannot be the member of more than one team.</b></li>
-                        <li><b>Teams selected for the finals will be finalised only after professional ID card verification of all the members.</b></li>
-                    </ul> */}
+                        <li><b>UAE CyberLeague is an Individual competition. Participants are strictly forbidden to help or obtain help from anyone through any medium, directly or indirectly, during the Contest.</b></li>
+                        <li><b>If found to be cheating, the Participant shall be disqualified from the Contest, with immediate effect.</b></li>
 
-                   
+                    </ul>
+                    <h2>Sharing of Flag/Solution to Others</h2>
+                    <ul>
+                        <li>Answers, solutions, write ups or overly-revealing hints to any challenges should not be publicly posted or otherwise shared with anyone until the Contest is over.</li>
+                        <li>Sharing the flags, or providing overly-revealing hints with anyone through any medium during the period of the Contest shall be considered as cheating.</li>
+                    </ul>
+                    <h2>Accepting Flag/Solution From Others</h2>
+                    <ul>
+                        <li>Accepting direct assistance, receiving a flag or solution to a challenge from anyone is considered cheating, and is strictly prohibited during the Contest.</li>
+                        <li>While using tools, references and snippets publicly available on the Internet is allowed, a participant shall not ask people, forums etc. on the internet for help for solving a challenge.</li>
+                    </ul>
+                    
+                    <p>Organizers of the contest have the right to change any rules. The rules changed will be updated to all the participants via email.  The decision of the organizing teams will be final.</p>
+
+
                 </div>
             </RulesContainer>
         </div>
-        <PageFooterExplorer
+        {/* <PageFooterExplorer
             items={[
                 {
                     "title": "FAQ",
@@ -128,7 +106,7 @@ const RulePage = () => {
                     "link": "/about#our-reach"
                 },
             ]}
-        />
+        /> */}
         <Footer />
     </Base>
 }

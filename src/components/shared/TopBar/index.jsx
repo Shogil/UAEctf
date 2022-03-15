@@ -170,7 +170,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                                             isVisible={isVisible()}
                                         />
                                     ))}
-                                    <TopBarSearch />
+                                    {/* <TopBarSearch /> */}
                                 </nav>
                                 <button
                                     className="px-8 py-4 rounded-lg font-semibold bg-red-600 hover:bg-black shadow hover:shadow-xl text-white ml-3"

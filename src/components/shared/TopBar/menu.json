@@ -23,21 +23,8 @@
     "link": "/faq"
   },
   {
-    "label": "Championship",
-    "link": "/championship",
-    "items": [
-      
-      {
-        "label": "Guidelines & Rules",
-        "link": ""
-      },
-      {
-        "label": "Prizes",
-        "badge": "",
-        "badgeColor": "bg-green-100",
-        "link": "championship/#prizes"
-      }
-    ]
+    "label": "Rules",
+    "link": "/rules"
   },
   {
     "label": "Get Started",
