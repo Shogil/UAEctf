@@ -17,7 +17,7 @@ const TestimonialSection = styled.section`
 const Timeline = () => {
     return (
         <TestimonialSection>
-            <body class="bg-gray-50">
+            <div class="bg-gray-50">
                 <div class="p-4 mt-4">
                     <h1 class="text-4xl text-center font-semibold mb-6">Event Timeline</h1>
                     <div class="container">
@@ -129,7 +129,7 @@ const Timeline = () => {
                         </div>
                     </div>
                 </div>
-            </body>
+            </div>
         </TestimonialSection>
     )
 }
