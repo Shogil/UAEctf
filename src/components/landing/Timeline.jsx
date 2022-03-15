@@ -17,112 +17,128 @@ const TestimonialSection = styled.section`
 const Timeline = () => {
     return (
         <TestimonialSection>
-            <div class="container">
-                <div
-                    class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
-                >
-
-                    <div class="flex flex-row-reverse md:contents">
-                        <div
-                            class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-                        >
-                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
-                            <p class="leading-tight text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
-                        </div>
-                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                            <div class="h-full w-6 flex items-center justify-center">
-                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                            </div>
-                            <div
-                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                            ></div>
-                        </div>
-                    </div>
-
-                    <div class="flex md:contents">
-                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                            <div class="h-full w-6 flex items-center justify-center">
-                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                            </div>
-                            <div
-                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                            ></div>
-                        </div>
-                        <div
-                            class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
-                        >
-                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
-                            <p class="leading-tight text-justify">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Vitae, facilis.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="flex flex-row-reverse md:contents">
-                        <div
-                            class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-                        >
-                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
-                            <p class="leading-tight text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
-                        </div>
-                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                            <div class="h-full w-6 flex items-center justify-center">
-                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                            </div>
-                            <div
-                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                            ></div>
-                        </div>
-                    </div>
-
-                    <div class="flex flex-row-reverse md:contents">
-                        <div
-                            class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-                        >
-                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
-                            <p class="leading-tight text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
-                        </div>
-                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                            <div class="h-full w-6 flex items-center justify-center">
-                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                            </div>
-                            <div
-                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                            ></div>
-                        </div>
-                    </div>
-
-                    <div class="flex md:contents">
-                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                            <div class="h-full w-6 flex items-center justify-center">
-                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                            </div>
-                            <div
-                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                            ></div>
-                        </div>
-                        <div
-                            class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
-                        >
-                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
-                            <p class="leading-tight text-justify">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Vitae, facilis.
-                            </p>
-                        </div>
-                    </div>
+           <div class="container">
+           <h1 class="text-4xl text-center font-semibold mb-6">Event Timeline</h1> 
+          <div
+            class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
+          >
+           
+            <div class="flex flex-row-reverse md:contents">
+              <div
+                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-full w-full"
+              >
+                <h3 class="font-semibold text-lg mb-1">Registration </h3>
+                <p class="leading-tight text-justify">
+                March 25 - June 25
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
                 </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
             </div>
+            
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+              <div
+                class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
+              >
+                <h3 class="font-semibold text-lg mb-1">Learning round</h3>
+                <p class="leading-tight text-justify">
+                self-paced learning, Mock contest  - March 25 to May 25
+                </p>
+              </div>
+            </div>
+            
+           
+           
+            <div class="flex flex-row-reverse md:contents">
+              <div
+                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md w-full" 
+              >
+                <h3 class="font-semibold text-lg mb-1">Training round</h3>
+                <p class="leading-tight text-justify">
+                mock contest - May 26 - June 7
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+              <div
+                class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
+              >
+                <h3 class="font-semibold text-lg mb-1">Pre-conference talk</h3>
+                <p class="leading-tight text-justify">
+                June 7  - June 15
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-row-reverse md:contents">
+              <div
+                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md w-full"
+              >
+                <h3 class="font-semibold text-lg mb-1">Finals</h3>
+                <p class="leading-tight text-justify">
+                June 17 - June 19
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+            </div>
+            
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                ></div>
+              </div>
+              <div
+                class="bg-blue-500 col-start-6 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
+              >
+                <h3 class="font-semibold text-lg mb-1">Onsite conference</h3>
+                <p class="leading-tight text-justify">
+                June 26
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         </TestimonialSection>
     )
 }
