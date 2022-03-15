@@ -7,59 +7,118 @@ import Modal from 'react-modal';
 
 
 const TestimonialSection = styled.section`
-   
+    margin: 0 auto;
+  max-width: 800px;
+  padding: 25px;
+  display: grid;
  
 `;
 
 const Timeline = () => {
     return (
         <TestimonialSection>
-            <div class="container bg-gray-200 mx-auto w-full h-full">
-                <div class="relative wrap overflow-hidden p-10 h-full">
-                    <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{left: "50%"}}></div>
+            <div class="container">
+                <div
+                    class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
+                >
 
-                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                        <div class="order-1 w-5/12"></div>
-                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                    <div class="flex flex-row-reverse md:contents">
+                        <div
+                            class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+                        >
+                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                            <p class="leading-tight text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                                quaerat?
+                            </p>
                         </div>
-                        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                            ></div>
                         </div>
                     </div>
 
-                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                        <div class="order-1 w-5/12"></div>
-                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+                    <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                            ></div>
                         </div>
-                        <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        </div>
-                    </div>
-
-
-                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                        <div class="order-1 w-5/12"></div>
-                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
-                        </div>
-                        <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-                            <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div
+                            class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                        >
+                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                            <p class="leading-tight text-justify">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Vitae, facilis.
+                            </p>
                         </div>
                     </div>
 
-                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                        <div class="order-1 w-5/12"></div>
-                        <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+                    <div class="flex flex-row-reverse md:contents">
+                        <div
+                            class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+                        >
+                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                            <p class="leading-tight text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                                quaerat?
+                            </p>
                         </div>
-                        <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                            <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-                            <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row-reverse md:contents">
+                        <div
+                            class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+                        >
+                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                            <p class="leading-tight text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                                quaerat?
+                            </p>
+                        </div>
+                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
+                            ></div>
+                        </div>
+                        <div
+                            class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                        >
+                            <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                            <p class="leading-tight text-justify">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Vitae, facilis.
+                            </p>
                         </div>
                     </div>
                 </div>
