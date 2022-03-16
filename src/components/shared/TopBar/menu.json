@@ -4,21 +4,23 @@
     "link": "/about"
   },
   {
-    "label": "Sponsors",
-    "link": ""
-  },
-  {
     "label": "Advisory Board",
     "link": ""
-  },
-  {
-    "label": "FAQ",
-    "link": "/faq"
   },
   {
     "label": "Rules",
     "link": "/rules"
   },
+  {
+    "label": "Sponsors",
+    "link": ""
+  },
+  
+  {
+    "label": "FAQ",
+    "link": "/faq"
+  },
+  
   {
     "label": "Get Started",
     "link": "",
