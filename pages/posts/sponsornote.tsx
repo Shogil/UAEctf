@@ -2,6 +2,9 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const Wrapper = styled.div`
+h1{
+    color:gree;
+}
   link-sponsors {
     img {
         max-width: 16%;
@@ -21,7 +24,7 @@ const SponsorNote = () => (
                      alt="salesforce" className="w-full rounded-lg" draggable={false}/>
             </div>
             <div className="w-full md:w-2/3 md:pl-10 mt-4 md:mt-0">
-                <h6 className="font-semibold text-left">TYPE OF EVENT SPONSORSHIP</h6>
+                <h6 className="font-semibold text-left">TYPE OF SPONSORSHIP</h6>
                 <h1 className="font-semibold text-primary text-left">Company Name</h1>
                 <ul className="leading-loose font-medium text-left">
                     <li>
@@ -40,7 +43,7 @@ const SponsorNote = () => (
                      alt="salesforce" className="w-full rounded-lg" draggable={false}/>
             </div>
             <div className="w-full md:w-2/3 md:pl-10 mt-4 md:mt-0">
-                <h6 className="font-semibold text-left">TYPE OF EVENT SPONSORSHIP</h6>
+                <h6 className="font-semibold text-left">TYPE OF SPONSORSHIP</h6>
                 <h1 className="font-semibold text-primary text-left">Company Name</h1>
                 <ul className="leading-loose font-medium text-left">
                     <li>
@@ -59,7 +62,7 @@ const SponsorNote = () => (
                      alt="salesforce" className="w-full rounded-lg" draggable={false}/>
             </div>
             <div className="w-full md:w-2/3 md:pl-10 mt-4 md:mt-0">
-                <h6 className="font-semibold text-left">TYPE OF EVENT SPONSORSHIP</h6>
+                <h6 className="font-semibold text-left">TYPE OF SPONSORSHIP</h6>
                 <h1 className="font-semibold text-primary text-left">Company Name</h1>
                 <ul className="leading-loose font-medium text-left">
                     <li>
