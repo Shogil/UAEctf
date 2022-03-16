@@ -31,22 +31,22 @@ const Social = () => {
         {
             id: 1,
             icon: Facebook,
-            link: "https://www.facebook.com/InCTF",
+            link: "",
         },
         {
             id: 2,
             icon: Email,
-            link: "mailto:inctf@am.amrita.edu."
+            link: ""
         },
         {
             id: 3,
             icon: Instagram,
-            link: "https://www.instagram.com/inctf.in/"
+            link: ""
         },
         {
             id: 4,
             icon: Twitter,
-            link: "https://twitter.com/inctf"
+            link: ""
         }
     ]
 
