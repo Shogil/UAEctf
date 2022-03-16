@@ -38,6 +38,7 @@ const ReasonsSection = styled.section`
   }
 `;
 
+
 const LandingReasonsToParticipate = () => {
 
     const reasons = [
@@ -46,7 +47,7 @@ const LandingReasonsToParticipate = () => {
             "title": <>Learn Hands-On, <br /> & Get a Head Start to CyberSec.</>
         },
         {
-            "video":  require('../../assets/images/photos/participants/1.jpg'),
+            "video": require('../../assets/images/photos/participants/1.jpg'),
             "title": <>Understand the latest happenings in the Cyber security realm</>
         },
         {
@@ -59,26 +60,28 @@ const LandingReasonsToParticipate = () => {
         },
     ];
 
-    return <div style={{ color: '', background:''}}>
+    return <div style={{ color: '', background: '' }}>
         <ReasonsSection className="container mx-auto">
-        <h2 className="text-center">
-            <div className="flex justify-center">
-                <img className="mr-2" style={{ width: '64px'}} alt="Why Participate?" src={require('../../assets/images/icons/heart.png')} />
-            </div>
-            Why Participate?
-        </h2>
-        <div className="flex flex-wrap  mx-0">
-        {reasons.map((r, index) =>
-            <Zoom up={index%2} left={!index%2}>
-                <div className="w-full md:w-1/2 lg:w-1/4 text-center mb-6 md:mb-0 p-2">
-                    {/* <video autoPlay loop muted src={r.video} /> */}
-                    <img src={r.video} /><br/>
-                    <div style={{color: ''}}>{r.title}</div>
+            <h2 className="text-center">
+                <div className="flex justify-center">
+                    <img className="mr-2" style={{ width: '64px' }} alt="Why Participate?" src={require('../../assets/images/icons/heart.png')} />
                 </div>
-            </Zoom>
-        )}
-        </div>
-    </ReasonsSection>
+                Why Participate?
+            </h2>
+            <div className="flex flex-wrap  mx-0">
+                {reasons.map((r, index) =>
+                    <Zoom up={index % 2} left={!index % 2}>
+                        <div className="w-full md:w-/2 lg:w-1/4 text-center mb-6 md:mb-0 p-2">
+                           
+                                {/* <video autoPlay loop muted src={r.video} /> */}
+                                <img src={r.video} /><br />
+                                <div style={{ color: '' }}>{r.title}</div>
+                            
+                        </div>
+                    </Zoom>
+                )}
+            </div>
+        </ReasonsSection>
     </div>
 
 };
