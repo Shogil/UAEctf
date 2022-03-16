@@ -14,22 +14,12 @@ const SponsorsPage = () => {
             <TopBar />
             <PageHeader
                 title="Our Sponsors"
-                breadcrumb={[
-                    {
-                        link: '/about',
-                        title: 'About'
-                    },
-                    {
-                        link: '/sponsors',
-                        isActive: true,
-                        title: 'Sponsors'
-                    }
-                ]}
+                
             />
             <div className="mx-auto text-center px-4 pb-8" style={{ maxWidth: 1250 }}>
                 <SponsorNote/>
             </div>
-            <PageFooterExplorer
+            {/* <PageFooterExplorer
                 items={[
                     {
                         "title": "Advisory Board",
@@ -47,7 +37,7 @@ const SponsorsPage = () => {
                         "link": "/about#our-reach"
                     },
                 ]}
-            />
+            /> */}
             <Footer />
         </Base>
     )

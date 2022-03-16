@@ -10,7 +10,7 @@ const LandingSearch = () => (
             </div>
         </div> */}
         <img
-            alt="amritapuri vector illustration"
+            alt=" vector illustration"
             draggable="false"
             style={{width:'100%'}}
             src={require('../../../assets/images/logos/vector.jpeg')}
