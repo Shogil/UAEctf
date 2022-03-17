@@ -60,9 +60,9 @@ const Timeline = () => {
               <div
                 class="bg-black col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
               >
-                <h3 class="font-semibold text-lg mb-1">Learning round</h3>
+                <h3 class="font-semibold text-lg mb-1">Learning Round</h3>
                 <p class="leading-tight text-justify">
-                self-paced learning, Mock contest  - March 25 to May 25
+                March 25 - May 25
                 </p>
               </div>
             </div>
@@ -73,9 +73,9 @@ const Timeline = () => {
               <div
                 class="col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md w-full" style={{background:'#ba1833'}} 
               >
-                <h3 class="font-semibold text-lg mb-1">Training round</h3>
+                <h3 class="font-semibold text-lg mb-1">Training Round</h3>
                 <p class="leading-tight text-justify">
-                mock contest - May 26 - June 7
+                May 26 - June 7
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -137,7 +137,7 @@ const Timeline = () => {
               <div
                 class="bg-black col-start-6 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
               >
-                <h3 class="font-semibold text-lg mb-1">Onsite conference</h3>
+                <h3 class="font-semibold text-lg mb-1">Onsite Conference</h3>
                 <p class="leading-tight text-justify">
                 June 26
                 </p>
