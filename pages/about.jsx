@@ -28,13 +28,13 @@ const AboutPage = () => {
         <TopBar includeSpace={false} />
         <div style={{ background: '' }}>
             <Parallax
-                background={require('../src/assets/images/covers/UAE-About.jpg')}
+                background={require('../src/assets/images/covers/aBOUT-US.png')}
                 height="600px"
             />
             <InctfIntro style={{ background: '',color: '' }}/>
             <INCTFStats stats={stats} />
             <div className="text-center ">
-                <img draggable="false" src={require('../src/assets/images/photos/uae.jpg')} />
+                <img draggable="false" src={require('../src/assets/images/photos/2.-Website-Footer-2.png')} />
             </div>
             {/*<AboutAchievements />*/}
         </div>

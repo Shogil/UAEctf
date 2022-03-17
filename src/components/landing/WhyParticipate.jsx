@@ -52,7 +52,7 @@ const LandingReasonsToParticipate = () => {
         },
         {
             "video": require('../../assets/images/photos/participants/Why-participate-3.png'),
-            "title": <>Make new friends,<br /> become part of our community</>
+            "title": <>Chance to win exciting prizes<br /> </>
         },
         {
             "video": require('../../assets/images/photos/participants/Why-participate--4.png'),

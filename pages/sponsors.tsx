@@ -10,7 +10,7 @@ import SponsorNote from './posts/sponsornote';
 
 const SponsorsPage = () => {
     return (
-        <Base meta={{ title: "Sponsors InCTF" }}>
+        <Base meta={{ title: "Sponsors UAE CTF" }}>
             <TopBar />
             <PageHeader
                 title="Our Sponsors"
