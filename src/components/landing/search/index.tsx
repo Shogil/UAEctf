@@ -13,7 +13,7 @@ const LandingSearch = () => (
             alt=" vector illustration"
             draggable="false"
             style={{width:'100%'}}
-            src={require('../../../assets/images/logos/vector.jpeg')}
+            src={require('../../../assets/images/logos/Website-Footer-2.png')}
         />
     </div>
 );

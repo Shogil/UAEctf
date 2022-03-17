@@ -27,13 +27,14 @@ const HeaderContainer = styled.section`
     h1 {
       font-weight: 700;
       line-height: 1.25;
-      font-size: calc(1.75rem + 1.25vw);
+      font-size: calc(1.6rem + 1.25vw);
       margin-bottom: 1rem;
       max-width: 900px;
     }
+    
     p {
       max-width: 700px;
-      font-size: 18px;
+      font-size: 22px;
       line-height: 1.5;
       span {
         display: inline-block;
@@ -153,15 +154,14 @@ const LandingHeader = ({ UTMSource = null }) => {
                             <div className="md:w-2/3 mb-4 px-4">
                                 <Pulse>
                                     <h1 style={{ color: '#ba1833'}}>
-                                        <span style={{ color: 'black'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER-AVENGERS</span><br/>
-                                        MARCH 2022 - JUNE 2022.
-
+                                        <span style={{ color: 'black'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER AVENGERS.</span><br/>
                                     </h1>
+                                    <h2 className="date" style={{ color: '#ba1833', fontSize: '23px' }}>MARCH 2022 - JUNE 2022</h2>
                                 </Pulse>
                                 <Fade up>
                                     <p>
                                         <span className="mt-6" style={{ color: 'black'}}>
-                                        UAE CTF 2022 Online Cyber Security Contest for Students, organised by Traboda CyberLabs and IPF.
+                                      Online cyber security contest for school students, organized by <b>Traboda CyberLabs</b>.
                                         </span>
                                         <br/><br/>
                                         <b style={{ color: '#ba1833'}}>An amazing contest to kick-start your cybersecurity career and also win exciting prizes!</b>
@@ -181,7 +181,7 @@ const LandingHeader = ({ UTMSource = null }) => {
                                 <img
                                     alt="InCTF"
                                     id="landing-header-cover-image"
-                                    src={require('../../assets/images/covers/Untitled design.png')}
+                                    src={require('../../assets/images/covers/children.webp')}
                                     style={{ position: 'unset', maxHeight: '500px', maxWidth: '100%' }}
                                     draggable="false"
                                 />

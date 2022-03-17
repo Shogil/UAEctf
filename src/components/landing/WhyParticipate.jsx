@@ -43,19 +43,19 @@ const LandingReasonsToParticipate = () => {
 
     const reasons = [
         {
-            "video": require('../../assets/images/photos/participants/1.jpg'),
+            "video": require('../../assets/images/photos/participants/Why-participate.1.png'),
             "title": <>Learn Hands-On, <br /> & Get a Head Start to CyberSec.</>
         },
         {
-            "video": require('../../assets/images/photos/participants/1.jpg'),
+            "video": require('../../assets/images/photos/participants/Why-participate-.2.png'),
             "title": <>Understand the latest happenings in the Cyber security realm</>
         },
         {
-            "video": require('../../assets/images/photos/participants/1.jpg'),
+            "video": require('../../assets/images/photos/participants/Why-participate-3.png'),
             "title": <>Make new friends,<br /> become part of our community</>
         },
         {
-            "video": require('../../assets/images/photos/participants/1.jpg'),
+            "video": require('../../assets/images/photos/participants/Why-participate--4.png'),
             "title": <>Get to Meet & Interact with Top Engineers from the Industry</>
         },
     ];

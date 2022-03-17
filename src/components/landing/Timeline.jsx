@@ -31,11 +31,11 @@ const Timeline = () => {
            
             <div class="flex flex-row-reverse md:contents">
               <div
-                class="bg-red-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-full w-full"
+                class=" col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-full w-full" style={{background:'red'}}
               >
                 <h3 class="font-semibold text-lg mb-1">Registration </h3>
                 <p class="leading-tight text-justify">
-                March 25 - June 25
+                March 25 - May 25
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">

@@ -67,7 +67,7 @@ background: #f7f7f7;
   }
 
   .logo {
-    max-height: 56px;
+    max-height: 70px;
   }
 
   img {
@@ -148,10 +148,10 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                 <div
                     className="w-1/4 md:w-1/3 xl:w-1/4 md:text-center flex flex-wrap items-center md:justify-end justify-center px-2"
                 >
-                    <a className="w-full md:w-2/3" href="/">
+                    <a className="w-full md:w-50" href="/">
                         <img
                             className="logo"
-                            src={require('../../../assets/images/logos/logo.jpeg')}
+                            src={require('../../../assets/images/logos/Logo-Final-1.png')}
                             
                             alt="UAE CTF"
                         />

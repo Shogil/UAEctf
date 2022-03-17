@@ -17,12 +17,14 @@ const AboutInCTFSection = styled.section`
         
         line-height: 1.2;
         font-size: calc(1.25rem + 1.2vw);
+    
         margin-bottom: 1.75rem;
         span {
           color: #ba1833;
         }
     }
     p {
+        text-align:justify;
         font-size: calc(1.1rem + 0.2vw);
         margin-bottom: 1.5rem;
         max-width: 90%;
@@ -88,9 +90,9 @@ const LandingAboutInCTF = () => (
                     <h2 className="mt-2">
                         UAE CyberSecurity Championship & <wbr />
                         <span style={{ color: '#ba1833'}}>Talent Incubation Programme</span> <wbr />
-                        for for School Students
+                        for School Students
                     </h2>
-                    <p>
+                    <p >
                     UAE CTF Junior - Online Cyber Security Contest for Students, is a virtually 
                     organised cybersecurity contest for school students in UAE. Cybersecurity 
                     competitions have gained popularity as a way for students to learn more about 
@@ -110,15 +112,7 @@ const LandingAboutInCTF = () => (
                 </div>
                 <div className="md:w-1/3 flex justify-end items-center p-3">
                     <div>
-                        
-                        <HighlightFeature>
-                            3-month Long Completely Free, <wbr /> <span>End-to-End Programme</span>
-                        </HighlightFeature>
-                        
-                        <HighlightFeature>
-                            Organized by Indian Peoples Forum <wbr />
-                            <span>and Traboda Cyber Lab</span>
-                        </HighlightFeature>
+                         <video autoPlay loop muted src={require('../../assets/images/photos/participants/data-protection-3574900-3008730.mp4')} />
                     </div>
                 </div>
             </div>
