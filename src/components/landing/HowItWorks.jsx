@@ -13,12 +13,14 @@ const HowItWorksSection = styled.section`
   }
   h3 {
       text-transform: uppercase;
+      
       font-weight: 900;
       img {
         box-shadow: none!important;
       }
   }
   p {
+    text-align:justify;
     font-size: 14px;
   } 
   a {
