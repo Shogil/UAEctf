@@ -223,7 +223,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                         alt="InCTF"
                         style={{ height: '72px' }}
                         className="inline"
-                        src={require('../../../assets/images/branding/logo.jpeg')}
+                        src={require('../../../assets/images/branding/Logo-Final-1.png')}
                     />
                 </a>
             </Link>
