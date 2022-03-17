@@ -35,7 +35,7 @@ const LandingPage = () => {
             <LandingHowItWorks />
             {/*<LandingTestimonials />*/}
             {/* <LandingSponsorship /> */}
-            <LandingOrganizers />
+            {/* <LandingOrganizers /> */}
             <LandingSearch />
             <LandingContactsBar />
             <Bot />

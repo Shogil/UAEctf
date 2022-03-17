@@ -112,7 +112,7 @@ const LandingAboutInCTF = () => (
                 </div>
                 <div className="md:w-1/3 flex justify-end items-center p-3">
                     <div>
-                         <video autoPlay loop muted src={require('../../assets/images/photos/participants/data-protection-3574900-3008730.mp4')} />
+                         <video autoPlay loop muted src={require('../../assets/images/photos/participants/data-protection-3572919-3017335.mp4')} />
                     </div>
                 </div>
             </div>
