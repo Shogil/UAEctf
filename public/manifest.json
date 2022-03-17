@@ -1,8 +1,8 @@
 {
     "name": "UAE CTF",
     "short_name": "UAE CTF",
-    "theme_color": "#E65100",
-    "background_color": "#E65100",
+    "theme_color": "#ba1833",
+    "background_color": "#ba1833",
     "display": "standalone",
     "orientation": "portrait",
     "Scope": "/",

@@ -39,7 +39,7 @@ const HeaderContainer = styled.section`
       span {
         display: inline-block;
         font-size: 108%;
-        color: #F13F17;
+        color: #ba1833;
       }
       margin-bottom: 1.25rem;
     }
@@ -48,7 +48,7 @@ const HeaderContainer = styled.section`
        width: 100%;
        text-align: center;
        max-width: 300px;
-       background: #F13F17;
+       background: #ba1833;
        color: white;
        font-weight: 600;
        padding: 0.75rem 1rem;
@@ -57,7 +57,7 @@ const HeaderContainer = styled.section`
        box-shadow: 2px 6px 12px rgba(0,0,0,0.3);
        &:hover {
           background: white;
-          color: #F13F17;
+          color: #ba1833;
        }
     }
     .limited-slots-warning {

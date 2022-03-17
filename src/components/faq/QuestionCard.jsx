@@ -30,7 +30,7 @@ const QuestionContainer = styled.div`
     line-height: 1.5;
 
     i {
-      color: #f13f17;
+      color: #ba1833;
       font-size: 22px;
       margin-right: 8px;
       transition: transform 250ms ease-in;
