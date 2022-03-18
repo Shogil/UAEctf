@@ -19,7 +19,7 @@ const Markdown = styled.div`
   p { margin-bottom: 1rem; }
 
   a {
-    color: #F13F17;
+    color: #ba1833;
 
     &:hover {
       text-decoration: underline;

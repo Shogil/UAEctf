@@ -16,10 +16,10 @@ const config = {
   ],
   customStyles: {
     botMessageBox: {
-      backgroundColor: '#f13f17',
+      backgroundColor: '#ba1833',
     },
     chatButton: {
-      backgroundColor: '#f13f17',
+      backgroundColor: '#ba1833',
     },
   },
   state: {
