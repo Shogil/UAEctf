@@ -97,7 +97,7 @@ const RulePage = () => {
                 },
                 {
                     "title": "Promote",
-                    "text": "Promote InCTF",
+                    "text": "Promote UAE CTF",
                     "link": "/promote"
                 },
                 {

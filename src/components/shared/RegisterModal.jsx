@@ -57,7 +57,7 @@ const RegistrationModal = ({ isOpen, onClose }) => (
                                 </div>
                                 <div>
                                     <div className="text-3xl mt-3 font-semibold">Professional</div>
-                                    <div className="md:text-center text-blue-600 font-semibold inline-block bg-white py-2 px-4 mt-2 rounded-xl">InCTF 21 Pro</div>
+                                    <div className="md:text-center text-blue-600 font-semibold inline-block bg-white py-2 px-4 mt-2 rounded-xl">UAE CTF 22</div>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const RegistrationModal = ({ isOpen, onClose }) => (
                                 </div>
                                 <div>
                                     <div className="text-3xl mt-3 font-semibold">Student</div>
-                                    <div className="md:text-center text-red-600 font-semibold inline-block bg-white py-2 px-4 mt-2 rounded-xl">InCTF 21 Nationals</div>
+                                    <div className="md:text-center text-red-600 font-semibold inline-block bg-white py-2 px-4 mt-2 rounded-xl">UAE CTF 22</div>
                                 </div>
                             </div>
                         </div>

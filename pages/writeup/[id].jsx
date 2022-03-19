@@ -192,7 +192,7 @@ const WriteUpPage = ({ id }) => {
                     },
                     {
                         "title": "Promote",
-                        "text": "Promote InCTF Junior",
+                        "text": "Promote UAE CTF Junior",
                         "link": "/promote"
                     },
                     {

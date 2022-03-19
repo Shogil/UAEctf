@@ -10,8 +10,8 @@ const CyberClubsInSchools = () => (
             <ul className="leading-loose font-medium mt-6 md:mr-10">
                 <li>
                     Due to the absence of an ecosystem or peer group, the students often get stuck and don't
-                    continue learning cyber-security after the InCTF as often they have no idea or motivation to
-                    continue until the next InCTF.
+                    continue learning cyber-security after the UAE CTF as often they have no idea or motivation to
+                    continue until the next UAE CTF.
                 </li>
                 <li className="mt-2">
                     To address this, since the last few years, we have been working closely with Amrita Vidyalayams

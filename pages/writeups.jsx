@@ -47,7 +47,7 @@ const WriteupListingPage = () => {
                 }
             ]}
             description="
-                 Read the solution write-ups for InCTF Jr challenges, and solve them following
+                 Read the solution write-ups for UAE CTF Jr challenges, and solve them following
                  the write-up and get yourself started!
             "
         />
@@ -93,7 +93,7 @@ const WriteupListingPage = () => {
                 },
                 {
                     "title": "Promote",
-                    "text": "Promote InCTF Junior",
+                    "text": "Promote UAE CTF Junior",
                     "link": "/promote"
                 },
                 {

@@ -50,10 +50,10 @@ const BlogListingPage = () => {
         <BlogPage>
             <PageTitleArea className="container-lg px-3">
                 <div>
-                    <h1>InCTF Jr. Blog</h1>
+                    <h1>UAE CTF Blog</h1>
                     <p style={{ maxWidth: '720px' }}>
                         Everything from participant experiences, cyberSec news to our case studies & reports,
-                        updates & experiments at InCTF are all jotted down on this blog.
+                        updates & experiments at UAE CTF are all jotted down on this blog.
                     </p>
                 </div>
             </PageTitleArea>

@@ -43,7 +43,7 @@ const SchoolLeaderboard = ({ schools }) => {
             )}
         </div>
         <div style={{ opacity: 0.8, fontSize: '11px' }} className="py-3 p-2">
-            <li>InCTF Jr. is an individual event, and the points for schools are calculated by adding up scores of all students from the school</li>
+            <li>UAE CTF is an individual event, and the points for schools are calculated by adding up scores of all students from the school</li>
             <li>Only Schools with minimum of 2 scoring participants are taken in consideration</li>
             <li>Students who incorrectly gave information of the school, or whose profile is not verified are not accounted for.</li>
         </div>

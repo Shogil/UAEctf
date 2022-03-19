@@ -10,7 +10,7 @@ const DiscordRedirect = () => {
         router.push('https://us02web.zoom.us/j/84498173321')
     }, []);
 
-    return <Base meta={{ title: 'Join InCTF Conference' }}>
+    return <Base meta={{ title: 'Join UAE CTF Conference' }}>
         <h1>Please wait while we redirect you to the conference link.</h1>
     </Base>;
 };

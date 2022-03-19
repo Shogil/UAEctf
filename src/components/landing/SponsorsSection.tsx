@@ -96,7 +96,7 @@ const SponsorsSection = () => {
     return (
         <Wrapper>           
             <div className="flex my-3 flex-wrap my-6">
-                <div className="w-full p-0 mt-3 mb-3 text-red-500 opacity-80 text-center">InCTF 2021 Sponsors</div>
+                <div className="w-full p-0 mt-3 mb-3 text-red-500 opacity-80 text-center">UAE CTF Sponsors</div>
                 <div className="w-full justify-center">
                     <p className="w-full text-center opacity-8 mb-3" style={{ maxWidth: '100%', fontSize: '95%', lineHeight: 1.4, width: '450px' }}>
                         We thank these organizations for investing in the CyberSecurity Workforce of Tomorrow.

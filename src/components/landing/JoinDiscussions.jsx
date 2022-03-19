@@ -65,7 +65,7 @@ const LandingJoinDiscussion = () => {
         </div>
 
         <div className="md:w-1/2 w-full">
-            <DiscordDiscussion href="https://discord.gg/uZ2yahXyMd" rel="noopener noreferrer" target="_blank">
+            <DiscordDiscussion href="" rel="noopener noreferrer" target="_blank">
                 <Fade right>
                     <div>
                         <img src={require('../../assets/images/logos/discord.png')} alt="Join Discord Server" />

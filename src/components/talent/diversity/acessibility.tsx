@@ -12,7 +12,7 @@ const EducationAccessibility = () => (
                 <div className="mt-6">
                     <ul className="leading-loose font-medium md:mr-4">
                         <li>
-                            A reason why we started InCTF is to make learning CyberSecurity accessible in the
+                            A reason why we started UAE CTF is to make learning CyberSecurity accessible in the
                             unprivileged
                             sections of society.
                         </li>
@@ -22,7 +22,7 @@ const EducationAccessibility = () => (
                             training and resources don't come cheap and thus are out of reach for many.
                         </li>
                         <li className="mt-2">
-                            With InCTF Junior & our initiatives, we are constantly striving to bridge this gap and
+                            With UAE CTF & our initiatives, we are constantly striving to bridge this gap and
                             provide
                             this
                             platform of equal opportunities for everyone.
@@ -52,7 +52,7 @@ const EducationAccessibility = () => (
                         plugins: {
                             title: {
                                 display: true,
-                                text: 'InCTF Jr Participant Demographics',
+                                text: 'UAE CTF Participant Demographics',
                                 font: { size: 22 }
                             },
                             datalabels: {

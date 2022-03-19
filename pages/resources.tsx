@@ -8,7 +8,7 @@ import YoutubeVideos from "../src/components/resources/YoutubeVideos";
 
 const ResourcesPage = () => {
     return (
-        <Base meta={{ title: "Resources InCTF" }}>
+        <Base meta={{ title: "Resources UAE CTF" }}>
             <TopBar />
             <PageHeader
                 breadcrumb={[

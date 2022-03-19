@@ -98,7 +98,7 @@ const PromotePage = () => {
         document.body.removeChild(link);
     };
 
-    return <Base meta={{ title: "Publicize InCTF Jr." }}>
+    return <Base meta={{ title: "Publicize UAE CTF" }}>
         <TopBar includeSpace={false} />
         <div className="px-4 py-8 flex items-end justify-center">
             <div style={{ width: '1000px', maxWidth: '100%'  }}>
@@ -119,7 +119,7 @@ const PromotePage = () => {
                                 ]}
                             />
                         </div>
-                        <h1 className="text-primary text-5xl lg:text-6xl py-4">Promote InCTF</h1>
+                        <h1 className="text-primary text-5xl lg:text-6xl py-4">Promote UAE CTF</h1>
                     </div>
                 </div>
             </div>

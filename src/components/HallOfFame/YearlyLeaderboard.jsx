@@ -43,7 +43,7 @@ const YearlyLeaderboard = ({ year, leaderboard, proLeaderboard, schools, champio
         <div className="py-2">
             <h3 style={{ color: '#fd7e14' }} className="mb-1 font-semibold">Top Beginner level Champions</h3>
             <p style={{ opacity: 0.8 }} className="mb-3">
-               The InCTF Beginner level {year} champions
+               The UAE CTF Beginner level {year} champions
             </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{champions.map((c, index) =>
@@ -80,7 +80,7 @@ const YearlyLeaderboard = ({ year, leaderboard, proLeaderboard, schools, champio
         <div className="py-2">
             <h3 style={{ color: '#fd7e14' }} className="mb-1 font-semibold">Top Experienced Hacker</h3>
             <p style={{ opacity: 0.8 }} className="mb-3">
-                The top Experienced Hacker of InCTF {year}
+                The top Experienced Hacker of UAE CTF {year}
             </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">{experienced.map((c, index) =>
@@ -117,7 +117,7 @@ const YearlyLeaderboard = ({ year, leaderboard, proLeaderboard, schools, champio
         <div className="py-2">
             <h3 style={{ color: '#fd7e14' }} className="mb-1 font-semibold">Top Women Hacker</h3>
             <p style={{ opacity: 0.8 }} className="mb-3">
-                The top Women Hacker of InCTF {year}
+                The top Women Hacker of UAE CTF {year}
             </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">{womenHackers.map((c, index) =>
@@ -155,7 +155,7 @@ const YearlyLeaderboard = ({ year, leaderboard, proLeaderboard, schools, champio
         <div className="py-2">
             <h3 style={{ color: '#fd7e14' }} className="mb-1 font-semibold">Top Professional Hacker</h3>
             <p style={{ opacity: 0.8 }} className="mb-3">
-                The top Professional Hacker of InCTF {year}
+                The top Professional Hacker of UAE CTF {year}
             </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">{professionals.map((c, index) =>
@@ -195,15 +195,15 @@ const YearlyLeaderboard = ({ year, leaderboard, proLeaderboard, schools, champio
         enableQuotaFilter={false}
         enableStateFilter={false}
         labels={{
-            title: 'Teams Qualified for InCTF Professionals Finals',
-            description: 'Top participants from the qualifiers round who are selected for the Finals of InCTF Professionals.'
+            title: 'Teams Qualified for UAE CTF Professionals Finals',
+            description: 'Top participants from the qualifiers round who are selected for the Finals of UAE CTF Professionals.'
         }}
     />
     <Leaderboard
         leaderboard={leaderboard}
         labels={{
-            title: 'Teams Qualified for InCTF Nationals Finals',
-            description: 'Top participants from the qualifiers round who are selected for the National Finals of InCTF.'
+            title: 'Teams Qualified for UAE CTF Nationals Finals',
+            description: 'Top participants from the qualifiers round who are selected for the National Finals of UAE CTF.'
         }}
     />
     </div>;

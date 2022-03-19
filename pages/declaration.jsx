@@ -58,7 +58,7 @@ const DeclarationPage = () => {
                                 the bank account details any one of the team member. (agreed by all the team members)
                             </p>
                         </div>
-                        <div className="bg-yellow-50 shadow p-4 md:p-6 xl:p-8 rounded-xl">
+                        {/* <div className="bg-yellow-50 shadow p-4 md:p-6 xl:p-8 rounded-xl">
 
                             <h2>SELF DECLARATION</h2>
                             <p style={{ lineHeight: 1.75 }}>
@@ -82,7 +82,7 @@ const DeclarationPage = () => {
                             <p>
                                 I hereby declare that the information given above is true to the best of my knowledge.
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </RulesContainer>
