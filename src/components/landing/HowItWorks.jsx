@@ -47,7 +47,7 @@ const LandingHowItWorks = () => {
             "title": "Learn", "icon": require('../../assets/images/icons/learn.png'),
             "delay": 100, "left": true,
             "content": <>
-                Students can dive into cyber security using the world class resources that team bi0s has made available. Learn new concepts using the bi0s wiki and our YouTube channel and practice them at the challenge archive.
+                Students have the opportunity to access world-class learning resources that are made available by team bi0s, India’s No. 1 CTF team. Learning new concepts using the bi0s wiki and YouTube channel coupled with practice sessions at the challenge archive offers hands-on learning outcomes. 
             </>,
             // "links": [
             //     {
@@ -63,7 +63,7 @@ const LandingHowItWorks = () => {
             "title": "Hack", "icon": require('../../assets/images/icons/hack.png'),
             "delay": 500, "top": true,
             "content": <>
-                Students now participate in the Capture The Flag contest, a gamified approach to learning cyber-security. Start by solving simple challenges that test your knowledge and work up to real world situations where you will need a true hacker's skills to succeed.
+                Students compete in the Capture The Flag contest, which is a game-based approach to learning cybersecurity. Solve challenges that put your knowledge to test and then progress to real-world situations that will require true hackers’ skills to succeed. 
             </>,
             // "links": [
             //     {
@@ -75,7 +75,7 @@ const LandingHowItWorks = () => {
             "title": "Win", "icon": require('../../assets/images/icons/win.png'),
             "delay": 1000, "right": true,
             "content": <>
-                Students finishing at top of the CTF leaderboard will be awarded with exciting goodies and prizes, and they will also get access to exclusive online cyber-security training following the contest. All other participants will also receive certificates.
+                Students who make their way to the top in the CTF leaderboard will receive exciting goodies and prizes, as well as access to exclusive online cybersecurity training after the contest. All other participants will also receive certificates.
             </>,
             // "links": [
             //     {

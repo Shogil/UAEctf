@@ -47,7 +47,7 @@ const LandingQuickInfo = () => {
         {
             image: require('../../assets/images/icons/school.webp'), right: true,
             question: "For Whom?", answer: <>
-                School Students <br/>
+               Grade 07-12 School Students <br/>
                
             </>,
         }

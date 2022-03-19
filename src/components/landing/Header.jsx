@@ -163,8 +163,7 @@ const LandingHeader = ({ UTMSource = null }) => {
                                         <span className="mt-6" style={{ color: 'black'}}>
                                       Online cyber security contest for school students, organized by <b>Traboda CyberLabs</b>
                                         </span>
-                                        <br/><br/>
-                                        <b style={{ color: '#ba1833'}}>An amazing contest to kick-start your cybersecurity career and also win exciting prizes</b>
+                                       An amazing contest to kick-start your cybersecurity career and also win exciting prizes
                                     </p>
                                 </Fade>
                                 
