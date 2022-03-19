@@ -68,7 +68,7 @@ const LandingAboutInCTF = () => (
     <div style={{background:'white'}}>
     <AboutInCTFSection className="container mx-auto">
         <Zoom up>
-            <div className="md:hidden flex justify-center mb-6">
+            {/* <div className="md:hidden flex justify-center mb-6">
                 <div className="rounded-lg p-2 bg-blue-100" style={{ maxWidth: '100%', width: '1100px' }}>
                     <div className="flex flex-wrap items-center">
                         <div className="md:w-4/5 px-3">
@@ -84,7 +84,7 @@ const LandingAboutInCTF = () => (
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="flex flex-wrap  mx-0">
                 <div className="md:w-2/3 p-2">
                     <h2 className="mt-2">
