@@ -2,89 +2,50 @@ import React from "react";
 import TopBar from "../src/components/shared/TopBar";
 import Base from "../src/components/shared/Base";
 
-import {
-    OrganizingTeamMembers,
-    OrganizingTeamChiefs,
-    OrganizingTeamTier2,
-    OrganizingTeamTier3
-} from "../src/data/organizers";
+import { PrizeDetails } from "../src/data/organizers";
+import ProfileCardNew from "../src/components/ProfileCardNew";
 import Footer from "../src/components/shared/Footer";
-import ProfileSummaryCard from "../src/components/ProfileSummaryCard";
-import ProfileMicroCard from "../src/components/ProfileMicroCard";
 import PageHeader from "../src/components/PageHeader";
 import PageFooterExplorer from "../src/components/PageFooterExplorer";
 
-
-const OrganizersPage = () => {
+const AdvisoryBoardPage = () => {
 
     return (
-        <Base meta={{ title: "Organizers" }}>
+        <Base meta={{ title: "Advisory Board" }}>
             <TopBar darkenOnSidebar />
             <PageHeader
-                title="Organizers"
-                breadcrumb={[
-                    {
-                        link: '/about',
-                        title: 'About'
-                    },
-                    {
-                        link: '/organizers',
-                        isActive: true,
-                        title: 'Organizers'
-                    }
-                ]}
+                
+                title="Prize List "
+               
             />
-            <div className="py-6 px-2" style={{ background: '#FAFAFA' }}>
-                {OrganizingTeamChiefs?.length > 0 && (
+            
+            <div className="container mx-auto" >
+                {PrizeDetails?.length > 0 && (
                     <div className="py-5">
-                        <h2 className="text-3xl mb-4 text-center">Programme Chiefs</h2>
+                        <h2 className="text-3xl text-primary mb-4 text-center">Prize List for the Participants</h2>
                         <div className="flex flex-wrap">
-                            {OrganizingTeamChiefs.map((a) => (
-                                <div className="w-full md:w-1/3 p-3">
-                                    <ProfileSummaryCard {...a} />
+                            {PrizeDetails.map((a) => (
+                                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py-3 sm:p-3">
+                                    <ProfileCardNew {...a} />
                                 </div>
                             ))}
                         </div>
                     </div>
                 )}
-                {OrganizingTeamTier2?.length > 0 && (
+                {/* {AdvisoryBoardAlumni?.length > 0 && (
                     <div className="py-5">
-                        <h2 className="text-3xl mb-5 text-center">Programme Executives</h2>
+                        <h2 className="text-3xl mb-5 text-primary text-center">Amrita Alumni & Industry Experts</h2>
                         <div className="flex flex-wrap">
-                            {OrganizingTeamTier2.map((a) => (
-                                <div className="w-full md:w-1/3 py-3 sm:p-3">
-                                    <ProfileSummaryCard {...a} />
+                            {AdvisoryBoardAlumni.map((a) => (
+                                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py-3 sm:p-3">
+                                    <ProfileCard {...a} />
                                 </div>
                             ))}
                         </div>
                     </div>
-                )}
-                {OrganizingTeamTier3?.length > 0 && (
-                    <div className="py-5">
-                        <h2 className="text-3xl mb-5 text-center">Team Leads</h2>
-                        <div className="flex flex-wrap">
-                            {OrganizingTeamTier3.map((a) => (
-                                <div className="w-full md:w-1/3 lg:w-1/4 py-3 sm:p-3">
-                                    <ProfileMicroCard {...a} />
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
-                {OrganizingTeamMembers?.length > 0 && (
-                    <div className="py-5">
-                        <h2 className="text-3xl mb-5 text-center">Team Members</h2>
-                        <div className="flex flex-wrap">
-                            {OrganizingTeamMembers.map((a) => (
-                                <div className="w-full md:w-1/3 lg:w-1/4 py-3 sm:p-3">
-                                    <ProfileMicroCard {...a} />
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                )}
+                )} */}
             </div>
-            <PageFooterExplorer
+            {/* <PageFooterExplorer
                 items={[
                     {
                         "title": "Our Reach & Impact",
@@ -92,9 +53,9 @@ const OrganizersPage = () => {
                         "link": "/about#our-reach"
                     },
                     {
-                        "title": "Advisory Board",
-                        "text": "View our elite panel of advisors",
-                        "link": "/advisory-board"
+                        "title": "Organizers",
+                        "text": "View our team of organizers",
+                        "link": "/organizers"
                     },
                     {
                         "title": "Sponsors",
@@ -102,10 +63,10 @@ const OrganizersPage = () => {
                         "link": "/sponsors"
                     }
                 ]}
-            />
+            /> */}
             <Footer />
         </Base>
     )
 };
 
-export default OrganizersPage;
+export default AdvisoryBoardPage;

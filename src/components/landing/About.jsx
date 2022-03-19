@@ -78,8 +78,8 @@ const LandingAboutInCTF = () => (
                             </span>
                         </div>
                         <div className="md:w-1/5 flex items-center md:my-0 my-3 px-2 md:px-0 justify-end">
-                            <a href="/discord" className="bg-blue-800 mb-0 px-4 py-3">
-                                Join Discord Now <i className="fa fa-chevron-right ml-1" />
+                            <a href="/" className="bg-blue-800 mb-0 px-4 py-3">
+                                Join Telegram Now <i className="fa fa-chevron-right ml-1" />
                             </a>
                         </div>
                     </div>
