@@ -172,30 +172,28 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                                     ))}
                                     {/* <TopBarSearch /> */}
                                 </nav>
+                                <a href="https://app.traboda.com/contest/uae-ctf">
                                 <button
                                     className="px-8 py-4 rounded-lg font-semibold bg-red-600 hover:bg-black shadow hover:shadow-xl text-white ml-3"
-                                    onClick={() => {
-                                        setShowRegCard(false);
-                                        disableBodyScroll(document.body);
-                                    }}
+                                    
                                 >
                                     Register <i className="fa fa-chevron-right"/>
                                 </button>
+                                </a>
                             </TopbarInfoCard>
                         </div>
                     </div>
                 </div>
                 <div className="w-3/4 flex md:hidden items-center justify-end px-1">
                     <TopbarInfoCard className="mr-3">
+                        <a href="https://app.traboda.com/contest/uae-ctf">
                         <button
-                            onClick={() => {
-                                setShowRegCard(false);
-                                disableBodyScroll();
-                            }}
+                            
                             className="w-full px-5 py-4 font-semibold rounded-lg bg-primary text-white hover:bg-blue-800 shadow hover:shadow-xl ml-3"
                         >
                             Register <i className="fa fa-chevron-right"/>
                         </button>
+                        </a>
                     </TopbarInfoCard>
                     <button onClick={onOpen} className="transition" style={{ width: 46, height: 46 }}>
                         <i className={`${showMenu ? 'fa fa-times' : 'fa fa-bars'} text-2xl transition`}/>
