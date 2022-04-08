@@ -35,7 +35,7 @@ const Timeline = () => {
               >
                 <h3 class="font-semibold text-lg mb-1">Registration </h3>
                 <p class="leading-tight text-justify">
-                March 25 - May 25
+                June 1
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10" >
@@ -62,7 +62,7 @@ const Timeline = () => {
               >
                 <h3 class="font-semibold text-lg mb-1">Learning Round</h3>
                 <p class="leading-tight text-justify">
-                March 25 - May 25
+                June 1 - August 1
                 </p>
               </div>
             </div>
@@ -73,9 +73,9 @@ const Timeline = () => {
               <div
                 class="col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md w-full" style={{background:'#ba1833'}} 
               >
-                <h3 class="font-semibold text-lg mb-1">Training Round</h3>
+                <h3 class="font-semibold text-lg mb-1">Registration ends</h3>
                 <p class="leading-tight text-justify">
-                May 26 - June 7
+                August 20
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -100,9 +100,9 @@ const Timeline = () => {
               <div
                 class="bg-black col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
               >
-                <h3 class="font-semibold text-lg mb-1">Pre-conference talk</h3>
+                <h3 class="font-semibold text-lg mb-1">Training Round</h3>
                 <p class="leading-tight text-justify">
-                June 7  - June 15
+                August 21 - August 30
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Timeline = () => {
               >
                 <h3 class="font-semibold text-lg mb-1">Finals</h3>
                 <p class="leading-tight text-justify">
-                June 17 - June 19
+                September 2 - September 4
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -137,9 +137,9 @@ const Timeline = () => {
               <div
                 class="bg-black col-start-6 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
               >
-                <h3 class="font-semibold text-lg mb-1">Onsite Conference</h3>
+                <h3 class="font-semibold text-lg mb-1">Conference</h3>
                 <p class="leading-tight text-justify">
-                June 26
+                September 11
                 </p>
               </div>
             </div>
