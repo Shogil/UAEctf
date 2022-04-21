@@ -5,6 +5,7 @@ import TopBar from "../src/components/shared/TopBar";
 import INCTFStats from "../src/components/about/stats";
 import InctfIntro from "../src/components/about/Intro";
 import Footer from "../src/components/shared/Footer";
+import PageHeader from "../src/components/PageHeader";
 {/*import AboutAchievements from "../src/components/about/Achievements";*/}
 import { data } from '../src/components/about/stats/66';
 import Parallax from "../src/components/Parallax";
@@ -26,13 +27,13 @@ const AboutPage = () => {
 
     return <Base meta={{ title: "About UAE CTF" }}>
         <TopBar includeSpace={false} />
-        <div style={{ background: '' }}>
-            <Parallax
-                background={require('../src/assets/images/covers/aBOUT-US.png')}
-                height="600px"
+        <PageHeader 
+                title="About UAE CTF"
             />
+        <div style={{ background: '' }}>
+            
             <InctfIntro style={{ background: '',color: '' }}/>
-            <INCTFStats stats={stats} />
+            {/* <INCTFStats stats={stats} /> */}
             <div className="text-center ">
                 <img draggable="false" src={require('../src/assets/images/photos/2.-Website-Footer-2.png')} />
             </div>

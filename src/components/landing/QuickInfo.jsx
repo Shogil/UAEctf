@@ -41,7 +41,7 @@ const LandingQuickInfo = () => {
         {
             image: require('../../assets/images/icons/calendar.png'), up: true,
             question: "When?", answer: <>
-                March 20th to June 19th
+                June 1 - September 11
             </>
         },
         {

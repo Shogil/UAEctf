@@ -64,9 +64,9 @@ const MobileMenu = ({ onClose }) => {
     const sidebarLinks = [
         { "icon": require('../../../assets/images/icons/home.png'), "title": "Home", "href": "/" },
         { "icon": require('../../../assets/images/icons/star_glowing.png'), "title": "About", "href": "/about" },
-        { "icon": require('../../../assets/images/icons/learn.png'), "title": "Advisory Board", "href": "/advisory-board"},
+        // { "icon": require('../../../assets/images/icons/learn.png'), "title": "Advisory Board", "href": "/advisory-board"},
         { "icon": require('../../../assets/images/icons/learn.png'), "title": "Rules", "href": "/rules" },
-        { "icon": require('../../../assets/images/icons/trophy.png'), "title": "Sponsors", "href": "/sponsors" },
+        // { "icon": require('../../../assets/images/icons/trophy.png'), "title": "Sponsors", "href": "/sponsors" },
          { "icon": require('../../../assets/images/icons/trophy.png'), "title": "Prizes", "href": "" },
         { "icon": require('../../../assets/images/icons/faq.png'), "title": "FAQ", "href": "/faq" },
         // { "icon": require('../../../assets/images/icons/faq.png'), "title": "Get Help", "href": "" },

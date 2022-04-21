@@ -172,20 +172,20 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                                     ))}
                                     {/* <TopBarSearch /> */}
                                 </nav>
-                                <a href="https://app.traboda.com/contest/uae-ctf">
+                                {/* <a href="https://app.traboda.com/contest/uae-ctf">
                                 <button
                                     className="px-8 py-4 rounded-lg font-semibold bg-red-600 hover:bg-black shadow hover:shadow-xl text-white ml-3"
                                     
                                 >
                                     Register <i className="fa fa-chevron-right"/>
                                 </button>
-                                </a>
+                                </a> */}
                             </TopbarInfoCard>
                         </div>
                     </div>
                 </div>
                 <div className="w-3/4 flex md:hidden items-center justify-end px-1">
-                    <TopbarInfoCard className="mr-3">
+                    {/* <TopbarInfoCard className="mr-3">
                         <a href="https://app.traboda.com/contest/uae-ctf">
                         <button
                             
@@ -194,7 +194,7 @@ const TopBar = ({ darkenOnSidebar = false, UTMSource = null }) => {
                             Register <i className="fa fa-chevron-right"/>
                         </button>
                         </a>
-                    </TopbarInfoCard>
+                    </TopbarInfoCard> */}
                     <button onClick={onOpen} className="transition" style={{ width: 46, height: 46 }}>
                         <i className={`${showMenu ? 'fa fa-times' : 'fa fa-bars'} text-2xl transition`}/>
                     </button>

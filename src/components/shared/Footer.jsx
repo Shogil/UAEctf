@@ -37,11 +37,11 @@ const Footer = () => {
                             <div className="line-height-1 opacity-80 my-2 md:mb-1 md:mt-0">
                                 &copy; UAE CTF 2022-2023. <span className="inline-block">All Rights Reserved.</span>
                             </div>
-                            <FooterLinksBar>
+                            {/* <FooterLinksBar>
                                 <a href="/branding">Brand Kit</a>
                                 <a href="/privacy">Privacy Policy</a>
                                 <a href="/rules">Rules</a>
-                            </FooterLinksBar>
+                            </FooterLinksBar> */}
                         </div>
                     </div>
                 </div>
