@@ -5,6 +5,7 @@ import styled from "@emotion/styled";
 const IntroSectionWrap = styled.div`
     user-select: none;
     p {
+        text-align:justify;
       width: 100%;
       max-width: 800px;
       margin-bottom: 1rem;

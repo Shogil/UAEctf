@@ -33,6 +33,7 @@ const HeaderContainer = styled.section`
     }
     
     p {
+        text-align:justify;
       max-width: 700px;
       font-size: 22px;
       line-height: 1.5;
@@ -156,14 +157,12 @@ const LandingHeader = ({ UTMSource = null }) => {
                                     <h1 style={{ color: '#ba1833'}}>
                                         <span style={{ color: 'black'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER AVENGERS</span><br/>
                                     </h1>
-                                    <h2 className="date" style={{ color: '#ba1833', fontSize: '23px' }}>JUNE 2022 - SEPTEMBER 2022</h2>
+                                    <h2 className="date" style={{ color: '#ba1833', fontSize: '23px' }}>JUNE 2022 - SEPTEMBER 2022</h2><br/>
                                 </Pulse>
                                 <Fade up>
                                     <p>
-                                        <span className="mt-6" style={{ color: 'black'}}>
-                                      Online cyber security contest for school students, organized by <b>Traboda CyberLabs</b>
-                                        </span>
-                                       An amazing contest to kick-start your cybersecurity career and also win exciting prizes
+                                        
+                                      Online cyber security contest for school students, organized by <b>Traboda CyberLabs</b> An amazing contest to kick-start your cybersecurity career and also win exciting prizes
                                     </p>
                                 </Fade>
                                 
