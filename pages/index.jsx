@@ -18,6 +18,7 @@ import LandingSearch from "../src/components/landing/search";
 import Footer from "../src/components/shared/Footer";
 import Bot from '../src/components/chatbot'
 import Timeline from '../src/components/landing/Timeline'
+import PrizeInfoUAE from "../src/components/landing/PrizeInfo"
 
 const LandingPage = () => {
 
@@ -27,6 +28,7 @@ const LandingPage = () => {
             <LandingHeader />
             <LandingQuickInfo />
             <LandingAboutInCTF />
+            <PrizeInfoUAE />
             {/* <LandingStatsBar /> */}
             <LandingPromoVideo />
             <LandingReasonsToParticipate />

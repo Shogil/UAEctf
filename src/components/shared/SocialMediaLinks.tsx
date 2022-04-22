@@ -3,10 +3,10 @@ import React from "react";
 const SocialMediaLinks = () => {
 
     const links = [
-        {
-            "href": "",
-            "icon": "fa fa-envelope"
-        },
+        // {
+        //     "href": "",
+        //     "icon": "fa fa-envelope"
+        // },
         {
             "href": "",
             "icon": "fab fa-instagram"
@@ -15,18 +15,18 @@ const SocialMediaLinks = () => {
             "href": "",
             "icon": "fab fa-twitter"
         },
-        {
-            "href": "",
-            "icon": "fab fa-facebook"
-        },
+        // {
+        //     "href": "",
+        //     "icon": "fab fa-facebook"
+        // },
         {
             "href": "",
             "icon": "fab fa-youtube"
         },
-        {
-            "href": "",
-            "icon": "fab fa-discord"
-        }
+        // {
+        //     "href": "",
+        //     "icon": "fab fa-discord"
+        // }
     ];
 
     return (
