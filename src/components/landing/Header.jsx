@@ -156,7 +156,7 @@ const LandingHeader = ({ UTMSource = null }) => {
                                     <h1 style={{ color: '#ba1833'}}>
                                         <span style={{ color: 'black'}}>JOIN AND BE PART OF THE NEXT GENERATION OF CYBER AVENGERS</span><br/>
                                     </h1>
-                                    <h2 className="date" style={{ color: '#ba1833', fontSize: '23px' }}>MARCH 2022 - JUNE 2022</h2>
+                                    <h2 className="date" style={{ color: '#ba1833', fontSize: '23px' }}>JUNE 2022 - SEPTEMBER 2022</h2>
                                 </Pulse>
                                 <Fade up>
                                     <p>
