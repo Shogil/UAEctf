@@ -196,21 +196,21 @@ export const PrizeDetails = [
         name: "Women winner 1st",
         reward: "Cash, Momentos",
         prize:"40,000",
-        photo: require('../assets/images/photos/participants/9.mp4'),
+        photo: require('../assets/images/photos/participants/one.mp4'),
         
     },
     {
         name: "Women winner 2nd",
         reward: "Cash, Momentos",
         prize:"30,000",
-        photo: require('../assets/images/photos/participants/9.mp4'),
+        photo: require('../assets/images/photos/participants/two.mp4'),
         
     },
     {
         name: "Women winner 3rd",
         reward: "Cash, Momentos",
         prize:"20,000",
-        photo: require('../assets/images/photos/participants/9.mp4'),
+        photo: require('../assets/images/photos/participants/3.mp4'),
         
     },
     
