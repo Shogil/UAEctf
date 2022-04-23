@@ -122,6 +122,56 @@ export const AdvisoryBoard = [
 //     }
 ];
 
+export const WomenDetails = [
+    {
+        name: "1st Prize Winner (Female)",
+        reward: "Cash, Momentos",
+        prize:"2500 AED",
+        photo: require('../assets/images/photos/participants/one.mp4'),
+        
+    },
+    {
+        name: "2nd Prize Winner (Female)",
+        reward: "Cash, Momentos",
+        prize:"2000 AED",
+        photo: require('../assets/images/photos/participants/two.mp4'),
+        
+    },
+    {
+        name: "3rd Prize Winner (Female)",
+        reward: "Cash, Momentos",
+        prize:"1500 AED",
+        photo: require('../assets/images/photos/participants/3.mp4'),
+        
+    },
+    
+];
+
+export const SchoolDetails = [
+    {
+        name: "Top 1st school",
+        reward: "Cash, Momentos",
+        prize:"Based on the number of registration scores. ",
+        photo: require('../assets/images/photos/participants/one.mp4'),
+        
+    },
+    {
+        name: "Top 2nd school",
+        reward: "Cash, Momentos",
+        prize:"Based on the number of registration scores. ",
+        photo: require('../assets/images/photos/participants/two.mp4'),
+        
+    },
+    {
+        name: "Top 3rd school",
+        reward: "Cash, Momentos",
+        prize:"Based on the number of registration scores. ",
+        photo: require('../assets/images/photos/participants/3.mp4'),
+        
+    },
+    
+];
+
 export const PrizeDetails = [
     {
         name: "1st Prize",
@@ -190,27 +240,6 @@ export const PrizeDetails = [
         reward: "Cash, Momentos",
         prize:"500 AED",
         photo: require('../assets/images/photos/participants/10.mp4'),
-        
-    },
-    {
-        name: "Women winner 1st",
-        reward: "Cash, Momentos",
-        prize:"40,000",
-        photo: require('../assets/images/photos/participants/one.mp4'),
-        
-    },
-    {
-        name: "Women winner 2nd",
-        reward: "Cash, Momentos",
-        prize:"30,000",
-        photo: require('../assets/images/photos/participants/two.mp4'),
-        
-    },
-    {
-        name: "Women winner 3rd",
-        reward: "Cash, Momentos",
-        prize:"20,000",
-        photo: require('../assets/images/photos/participants/3.mp4'),
         
     },
     
