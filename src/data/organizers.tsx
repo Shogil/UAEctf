@@ -126,69 +126,69 @@ export const PrizeDetails = [
     {
         name: "1st Prize",
         reward: "Cash, Momentos",
-        prize:"1,00,000",
+        prize:"5000 AED",
         photo: require('../assets/images/photos/participants/one.mp4'),
     },
     {
         name: "2nd Prize",
         reward: "Cash, Momentos",
-        prize:"70,000",
+        prize:"3500 AED",
         photo: require('../assets/images/photos/participants/two.mp4'),
         
     },
     {
         name: "3rd Prize",
         reward: "Cash, Momentos",
-        prize:"60,000",
+        prize:"3000 AED",
         photo: require('../assets/images/photos/participants/3.mp4'),
         
     },
     {
         name: "4th Prize",
         reward: "Cash, Momentos",
-        prize:"50,000",
+        prize:"2500 AED",
         photo: require('../assets/images/photos/participants/4.mp4'),
         
     },
     {
         name: "5th Prize",
         reward: "Cash, Momentos",
-        prize:"40,000",
+        prize:"2000 AED",
         photo: require('../assets/images/photos/participants/5.mp4'),
         
     },
     {
         name: "6th Prize",
         reward: "Cash, Momentos",
-        prize:"20,000",
+        prize:"1500 AED",
         photo: require('../assets/images/photos/participants/6.mp4'),
         
     },
     {
         name: "7th Prize",
         reward: "Cash, Momentos",
-        prize:"20,000",
+        prize:"1500 AED",
         photo: require('../assets/images/photos/participants/7.mp4'),
         
     },
     {
         name: "8th Prize",
         reward: "Cash, Momentos",
-        prize:"20,000",
+        prize:"1000 AED",
         photo: require('../assets/images/photos/participants/8.mp4'),
         
     },
     {
         name: "9th Prize",
         reward: "Cash, Momentos",
-        prize:"20,000",
+        prize:"1000 AED",
         photo: require('../assets/images/photos/participants/9.mp4'),
         
     },
     {
         name: "10th Prize",
         reward: "Cash, Momentos",
-        prize:"20,000",
+        prize:"500 AED",
         photo: require('../assets/images/photos/participants/10.mp4'),
         
     },
