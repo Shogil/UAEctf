@@ -145,6 +145,7 @@ const Timeline = () => {
             </div>
           </div>
         </div>
+        
         </TestimonialSection>
     )
 }
