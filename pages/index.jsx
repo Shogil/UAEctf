@@ -17,7 +17,8 @@ import LandingPromoVideo from "../src/components/landing/PromoVideo";
 import LandingSearch from "../src/components/landing/search";
 import Footer from "../src/components/shared/Footer";
 import Bot from '../src/components/chatbot'
-import Timeline from '../src/components/landing/Timeline'
+import Timeline from '../src/components/landing/Timeline';
+import TimelineEx from '../src/components/landing/timeli'
 import PrizeInfoUAE from "../src/components/landing/PrizeInfo"
 
 const LandingPage = () => {
@@ -33,7 +34,8 @@ const LandingPage = () => {
             <LandingPromoVideo />
             <LandingReasonsToParticipate />
             {/* <CTAReg /> */}
-            <Timeline />
+            {/* <Timeline /> */}
+            <TimelineEx />
             <LandingHowItWorks />
             {/*<LandingTestimonials />*/}
             {/* <LandingSponsorship /> */}
