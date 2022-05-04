@@ -8,11 +8,11 @@ const SocialMediaLinks = () => {
         //     "icon": "fa fa-envelope"
         // },
         {
-            "href": "",
+            "href": "https://www.instagram.com/cyberleague2022/?igshid=YmMyMTA2M2Y=",
             "icon": "fab fa-instagram"
         },
         {
-            "href": "",
+            "href": "https://twitter.com/CyberLeague22",
             "icon": "fab fa-twitter"
         },
         // {
@@ -20,7 +20,7 @@ const SocialMediaLinks = () => {
         //     "icon": "fab fa-facebook"
         // },
         {
-            "href": "",
+            "href": "https://www.youtube.com/channel/UCl6IMolMFPTZAcE8VaSWJiw",
             "icon": "fab fa-youtube"
         },
         // {
