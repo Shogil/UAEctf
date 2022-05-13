@@ -43,19 +43,19 @@ const LandingReasonsToParticipate = () => {
 
     const reasons = [
         {
-            "video": require('../../assets/images/photos/participants/cybersec3.mp4'),
+            "video": require('../../assets/images/photos/participants/cybersec.webp'),
             "title": <>Learn Hands-On, <br /> & Get a Head Start to CyberSec.</>
         },
         {
-            "video": require('../../assets/images/photos/participants/understand1.mp4'),
+            "video": require('../../assets/images/photos/participants/understand.webp'),
             "title": <>Understand the latest happenings in the Cyber security realm</>
         },
         {
-            "video": require('../../assets/images/photos/participants/winner.mp4'),
+            "video": require('../../assets/images/photos/participants/winner.webp'),
             "title": <>Chance to win exciting prizes<br /> </>
         },
         {
-            "video": require('../../assets/images/photos/participants/meeting.mp4'),
+            "video": require('../../assets/images/photos/participants/meeting.webp'),
             "title": <>Get to Meet & Interact with Top Engineers from the Industry</>
         },
     ];
@@ -74,8 +74,7 @@ const LandingReasonsToParticipate = () => {
                         <div className="w-full md:w-/2 lg:w-1/4 text-center mb-6 md:mb-0 p-2">
                            
                                 {/* <video autoPlay loop muted src={r.video} /> */}
-                                {/* <img src={r.video} /> */}
-                                <video autoPlay loop muted src={r.video} />
+                                <img src={r.video} />
                                 <br />
                                 <div style={{ color: '' }}>{r.title}</div>
                             
