@@ -44,7 +44,7 @@ const LandingHowItWorks = () => {
 
     const steps = [
         {
-            "title": "Learn", "icon": require('../../assets/images/icons/learn.png'),
+            "title": "Learn", "icon": require('../../assets/images/photos/participants/learn.mp4'),
             "delay": 100, "left": true,
             "content": <>
                 Students have the opportunity to access world-class learning resources that are made available by team bi0s, India’s No. 1 CTF team. Learning new concepts using the bi0s wiki and YouTube channel coupled with practice sessions at the challenge archive offers hands-on learning outcomes. 
@@ -60,7 +60,7 @@ const LandingHowItWorks = () => {
 
         },
         {
-            "title": "Hack", "icon": require('../../assets/images/icons/hack.png'),
+            "title": "Hack", "icon": require('../../assets/images/photos/participants/hack.mp4'),
             "delay": 500, "top": true,
             "content": <>
                 Students compete in the Capture The Flag contest, which is a game-based approach to learning cybersecurity. Solve challenges that put your knowledge to test and then progress to real-world situations that will require true hackers’ skills to succeed. 
@@ -72,7 +72,7 @@ const LandingHowItWorks = () => {
             // ]
         },
         {
-            "title": "Win", "icon": require('../../assets/images/icons/win.png'),
+            "title": "Win", "icon": require('../../assets/images/photos/participants/win.mp4'),
             "delay": 1000, "right": true,
             "content": <>
                 Students who make their way to the top in the CTF leaderboard will receive exciting goodies and prizes, as well as access to exclusive online cybersecurity training after the contest. All other participants will also receive certificates.
@@ -104,7 +104,8 @@ const LandingHowItWorks = () => {
                 <div className="md:w-1/3 pr-4 pl-4 px-3">
                     <div className="flex flex-wrap  mx-0">
                         <div className="md:w-full pr-4 pl-4 flex items-center justify-center w-1/4 p-1 md:p-0">
-                            <img draggable="false" alt={s.title} src={s.icon} />
+                        <video autoPlay loop muted src={s.icon} />
+                            {/* <img draggable="false" alt={s.title} src={s.icon} /> */}
                         </div>
                         <div className="md:w-full pr-4 pl-4 w-3/4 text-left md:text-center p-2 md:p-0">
                             <h3>{s.title}</h3>
