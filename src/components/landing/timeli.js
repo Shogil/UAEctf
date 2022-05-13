@@ -287,7 +287,7 @@ const TimelineEX = () => {
             Event Timeline
         </h2>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 ">
                     <div class="main-timeline5">
                         <div class="timeline">
                             <div class="timeline-icon"><span class="year">1</span></div>

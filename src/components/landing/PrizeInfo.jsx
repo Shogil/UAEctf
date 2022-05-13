@@ -69,20 +69,20 @@ const PrizeDetails = [
         name: "1st Prize",
         reward: "Cash, Momentos",
         prize: "5000 AED",
-        photo: require('../../assets/images/photos/participants/one.mp4'),
+        photo: require('../../assets/images/photos/participants/first.mp4'),
     },
     {
         name: "2nd Prize",
         reward: "Cash, Momentos",
         prize: "3500 AED",
-        photo: require('../../assets/images/photos/participants/two.mp4'),
+        photo: require('../../assets/images/photos/participants/second.mp4'),
 
     },
     {
         name: "3rd Prize",
         reward: "Cash, Momentos",
         prize: "3000 AED",
-        photo: require('../../assets/images/photos/participants/3.mp4'),
+        photo: require('../../assets/images/photos/participants/third.mp4'),
 
     }
 ];

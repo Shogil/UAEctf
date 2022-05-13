@@ -58,7 +58,7 @@ const Timeline = () => {
                 ></div>
               </div>
               <div
-                class="bg-black col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
+                class="bg-black col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md "
               >
                 <h3 class="font-semibold text-lg mb-1">Learning Round</h3>
                 <p class="leading-tight text-justify">
